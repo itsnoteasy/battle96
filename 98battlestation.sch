@@ -1,0 +1,5673 @@
+EESchema Schematic File Version 5
+LIBS:98battlestation-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+Comment5 ""
+Comment6 ""
+Comment7 ""
+Comment8 ""
+Comment9 ""
+$EndDescr
+$Comp
+L mx:MX-1U MX1
+U 1 1 5D6FCB6B
+P 1175 900
+F 0 "MX1" H 1261 1117 60  0000 C CNN
+F 1 "MX-1U" H 1261 1042 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 1150 875 60  0001 C CNN
+F 3 "" H 1150 875 60  0001 C CNN
+	1    1175 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D1
+U 1 1 5D6FD85F
+P 1040 1225
+F 0 "D1" V 1086 1146 50  0000 R CNN
+F 1 "1N4148" V 995 1146 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 1040 1050 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 1040 1225 50  0001 C CNN
+	1    1040 1225
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1150 1075 1040 1075
+Wire Wire Line
+	10870 1970 10870 1950
+$Comp
+L Device:R R1
+U 1 1 5DDDA565
+P 1300 1075
+F 0 "R1" H 1370 1121 50  0000 L CNN
+F 1 "R" H 1370 1030 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 1230 1075 50  0001 C CNN
+F 3 "~" H 1300 1075 50  0001 C CNN
+	1    1300 1075
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11200 1375 11200 1385
+Wire Wire Line
+	1040 1375 1520 1375
+Wire Wire Line
+	1630 1075 1520 1075
+$Comp
+L mx:MX-1U MX2
+U 1 1 5DDDD3DF
+P 1655 900
+F 0 "MX2" H 1741 1117 60  0000 C CNN
+F 1 "MX-1U" H 1741 1042 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 1630 875 60  0001 C CNN
+F 3 "" H 1630 875 60  0001 C CNN
+	1    1655 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D2
+U 1 1 5DDDD3ED
+P 1520 1225
+F 0 "D2" V 1566 1146 50  0000 R CNN
+F 1 "1N4148" V 1475 1146 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 1520 1050 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 1520 1225 50  0001 C CNN
+	1    1520 1225
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5DDDD3FB
+P 1780 1075
+F 0 "R2" H 1850 1121 50  0000 L CNN
+F 1 "R" H 1850 1030 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 1710 1075 50  0001 C CNN
+F 3 "~" H 1780 1075 50  0001 C CNN
+	1    1780 1075
+	1    0    0    -1  
+$EndComp
+$Comp
+L mx:MX-1U MX3
+U 1 1 5DDE1140
+P 2135 900
+F 0 "MX3" H 2221 1117 60  0000 C CNN
+F 1 "MX-1U" H 2221 1042 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 2110 875 60  0001 C CNN
+F 3 "" H 2110 875 60  0001 C CNN
+	1    2135 900 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2110 1075 2000 1075
+$Comp
+L Diode:1N4148 D3
+U 1 1 5DDE114F
+P 2000 1225
+F 0 "D3" V 2046 1146 50  0000 R CNN
+F 1 "1N4148" V 1955 1146 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2000 1050 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 2000 1225 50  0001 C CNN
+	1    2000 1225
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 5DDE115D
+P 2260 1075
+F 0 "R3" H 2330 1121 50  0000 L CNN
+F 1 "R" H 2330 1030 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 2190 1075 50  0001 C CNN
+F 3 "~" H 2260 1075 50  0001 C CNN
+	1    2260 1075
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 5DDE3D21
+P 2740 1075
+F 0 "R4" H 2810 1121 50  0000 L CNN
+F 1 "R" H 2810 1030 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 2670 1075 50  0001 C CNN
+F 3 "~" H 2740 1075 50  0001 C CNN
+	1    2740 1075
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D4
+U 1 1 5DDE3D2F
+P 2480 1225
+F 0 "D4" V 2526 1146 50  0000 R CNN
+F 1 "1N4148" V 2435 1146 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2480 1050 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 2480 1225 50  0001 C CNN
+	1    2480 1225
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2590 1075 2480 1075
+$Comp
+L mx:MX-1U MX4
+U 1 1 5DDE3D40
+P 2615 900
+F 0 "MX4" H 2701 1117 60  0000 C CNN
+F 1 "MX-1U" H 2701 1042 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 2590 875 60  0001 C CNN
+F 3 "" H 2590 875 60  0001 C CNN
+	1    2615 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 5DDE6280
+P 3220 1075
+F 0 "R5" H 3290 1121 50  0000 L CNN
+F 1 "R" H 3290 1030 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3150 1075 50  0001 C CNN
+F 3 "~" H 3220 1075 50  0001 C CNN
+	1    3220 1075
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3070 1075 2960 1075
+$Comp
+L Diode:1N4148 D5
+U 1 1 5DDE628F
+P 2960 1225
+F 0 "D5" V 3006 1146 50  0000 R CNN
+F 1 "1N4148" V 2915 1146 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2960 1050 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 2960 1225 50  0001 C CNN
+	1    2960 1225
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R7
+U 1 1 5DDFC1C2
+P 4180 1075
+F 0 "R7" H 4250 1121 50  0000 L CNN
+F 1 "R" H 4250 1030 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4110 1075 50  0001 C CNN
+F 3 "~" H 4180 1075 50  0001 C CNN
+	1    4180 1075
+	1    0    0    -1  
+$EndComp
+$Comp
+L mx:MX-1U MX6
+U 1 1 5DDFC1D2
+P 3575 900
+F 0 "MX6" H 3661 1117 60  0000 C CNN
+F 1 "MX-1U" H 3661 1042 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 3550 875 60  0001 C CNN
+F 3 "" H 3550 875 60  0001 C CNN
+	1    3575 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R8
+U 1 1 5DDFC1E0
+P 4660 1075
+F 0 "R8" H 4730 1121 50  0000 L CNN
+F 1 "R" H 4730 1030 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4590 1075 50  0001 C CNN
+F 3 "~" H 4660 1075 50  0001 C CNN
+	1    4660 1075
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 1075 3440 1075
+$Comp
+L Diode:1N4148 D6
+U 1 1 5DDFC1EF
+P 3440 1225
+F 0 "D6" V 3486 1146 50  0000 R CNN
+F 1 "1N4148" V 3395 1146 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3440 1050 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 3440 1225 50  0001 C CNN
+	1    3440 1225
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4510 1075 4400 1075
+$Comp
+L Device:R R9
+U 1 1 5DDFC1FE
+P 5140 1075
+F 0 "R9" H 5210 1121 50  0000 L CNN
+F 1 "R" H 5210 1030 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5070 1075 50  0001 C CNN
+F 3 "~" H 5140 1075 50  0001 C CNN
+	1    5140 1075
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D8
+U 1 1 5DDFC20C
+P 4400 1225
+F 0 "D8" V 4446 1146 50  0000 R CNN
+F 1 "1N4148" V 4355 1146 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4400 1050 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4400 1225 50  0001 C CNN
+	1    4400 1225
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4990 1075 4880 1075
+$Comp
+L mx:MX-1U MX8
+U 1 1 5DDFC21D
+P 4535 900
+F 0 "MX8" H 4584 1103 60  0000 C CNN
+F 1 "MX-1U" H 4621 1042 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 4510 875 60  0001 C CNN
+F 3 "" H 4510 875 60  0001 C CNN
+	1    4535 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D7
+U 1 1 5DDFC22B
+P 3920 1225
+F 0 "D7" V 3966 1146 50  0000 R CNN
+F 1 "1N4148" V 3875 1146 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3920 1050 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 3920 1225 50  0001 C CNN
+	1    3920 1225
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4030 1075 3920 1075
+$Comp
+L Diode:1N4148 D9
+U 1 1 5DDFC23A
+P 4880 1225
+F 0 "D9" V 4926 1146 50  0000 R CNN
+F 1 "1N4148" V 4835 1146 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4880 1050 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4880 1225 50  0001 C CNN
+	1    4880 1225
+	0    -1   -1   0   
+$EndComp
+$Comp
+L mx:MX-1U MX9
+U 1 1 5DDFC24A
+P 5015 900
+F 0 "MX9" H 5101 1117 60  0000 C CNN
+F 1 "MX-1U" H 5101 1042 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 4990 875 60  0001 C CNN
+F 3 "" H 4990 875 60  0001 C CNN
+	1    5015 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L mx:MX-1U MX7
+U 1 1 5DDFC25A
+P 4055 900
+F 0 "MX7" H 4141 1117 60  0000 C CNN
+F 1 "MX-1U" H 4141 1042 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 4030 875 60  0001 C CNN
+F 3 "" H 4030 875 60  0001 C CNN
+	1    4055 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R6
+U 1 1 5DDFC268
+P 3700 1075
+F 0 "R6" H 3770 1121 50  0000 L CNN
+F 1 "R" H 3770 1030 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3630 1075 50  0001 C CNN
+F 3 "~" H 3700 1075 50  0001 C CNN
+	1    3700 1075
+	1    0    0    -1  
+$EndComp
+$Comp
+L mx:MX-1U MX15
+U 1 1 5DE08580
+P 7945 900
+F 0 "MX15" H 8031 1117 60  0000 C CNN
+F 1 "MX-1U" H 8031 1042 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 7920 875 60  0001 C CNN
+F 3 "" H 7920 875 60  0001 C CNN
+	1    7945 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L mx:MX-1U MX10
+U 1 1 5DE0859E
+P 5500 900
+F 0 "MX10" H 5586 1117 60  0000 C CNN
+F 1 "MX-1U" H 5586 1042 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 5475 875 60  0001 C CNN
+F 3 "" H 5475 875 60  0001 C CNN
+	1    5500 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D14
+U 1 1 5DE085BA
+P 7315 1225
+F 0 "D14" V 7361 1146 50  0000 R CNN
+F 1 "1N4148" V 7270 1146 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7315 1050 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7315 1225 50  0001 C CNN
+	1    7315 1225
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R12
+U 1 1 5DE085C8
+P 6600 1075
+F 0 "R12" H 6670 1121 50  0000 L CNN
+F 1 "R" H 6670 1030 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 6530 1075 50  0001 C CNN
+F 3 "~" H 6600 1075 50  0001 C CNN
+	1    6600 1075
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7425 1075 7315 1075
+Wire Wire Line
+	5475 1075 5365 1075
+$Comp
+L Diode:1N4148 D10
+U 1 1 5DE085D8
+P 5365 1225
+F 0 "D10" V 5411 1146 50  0000 R CNN
+F 1 "1N4148" V 5320 1146 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5365 1050 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5365 1225 50  0001 C CNN
+	1    5365 1225
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D15
+U 1 1 5DE085E6
+P 7810 1225
+F 0 "D15" V 7856 1146 50  0000 R CNN
+F 1 "1N4148" V 7765 1146 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7810 1050 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7810 1225 50  0001 C CNN
+	1    7810 1225
+	0    -1   -1   0   
+$EndComp
+$Comp
+L mx:MX-1U MX14
+U 1 1 5DE085F6
+P 7450 900
+F 0 "MX14" H 7536 1117 60  0000 C CNN
+F 1 "MX-1U" H 7536 1042 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 7425 875 60  0001 C CNN
+F 3 "" H 7425 875 60  0001 C CNN
+	1    7450 900 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6450 1075 6340 1075
+$Comp
+L Device:R R13
+U 1 1 5DE08605
+P 7085 1075
+F 0 "R13" H 7155 1121 50  0000 L CNN
+F 1 "R" H 7155 1030 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 7015 1075 50  0001 C CNN
+F 3 "~" H 7085 1075 50  0001 C CNN
+	1    7085 1075
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R15
+U 1 1 5DE08614
+P 8070 1075
+F 0 "R15" H 8140 1121 50  0000 L CNN
+F 1 "R" H 8140 1030 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 8000 1075 50  0001 C CNN
+F 3 "~" H 8070 1075 50  0001 C CNN
+	1    8070 1075
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R14
+U 1 1 5DE08622
+P 7575 1075
+F 0 "R14" H 7645 1121 50  0000 L CNN
+F 1 "R" H 7645 1030 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 7505 1075 50  0001 C CNN
+F 3 "~" H 7575 1075 50  0001 C CNN
+	1    7575 1075
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D12
+U 1 1 5DE08630
+P 6340 1225
+F 0 "D12" V 6386 1146 50  0000 R CNN
+F 1 "1N4148" V 6295 1146 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6340 1050 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6340 1225 50  0001 C CNN
+	1    6340 1225
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6935 1075 6825 1075
+$Comp
+L mx:MX-1U MX12
+U 1 1 5DE08641
+P 6475 900
+F 0 "MX12" H 6561 1117 60  0000 C CNN
+F 1 "MX-1U" H 6561 1042 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 6450 875 60  0001 C CNN
+F 3 "" H 6450 875 60  0001 C CNN
+	1    6475 900 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7920 1075 7810 1075
+$Comp
+L Diode:1N4148 D13
+U 1 1 5DE0869C
+P 6825 1225
+F 0 "D13" V 6871 1146 50  0000 R CNN
+F 1 "1N4148" V 6780 1146 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6825 1050 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6825 1225 50  0001 C CNN
+	1    6825 1225
+	0    -1   -1   0   
+$EndComp
+$Comp
+L mx:MX-1U MX13
+U 1 1 5DE086AC
+P 6960 900
+F 0 "MX13" H 7046 1117 60  0000 C CNN
+F 1 "MX-1U" H 7046 1042 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 6935 875 60  0001 C CNN
+F 3 "" H 6935 875 60  0001 C CNN
+	1    6960 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D16
+U 1 1 5DE086CA
+P 8310 1225
+F 0 "D16" V 8356 1146 50  0000 R CNN
+F 1 "1N4148" V 8265 1146 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 8310 1050 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8310 1225 50  0001 C CNN
+	1    8310 1225
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R10
+U 1 1 5DE086D8
+P 5625 1075
+F 0 "R10" H 5695 1121 50  0000 L CNN
+F 1 "R" H 5695 1030 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5555 1075 50  0001 C CNN
+F 3 "~" H 5625 1075 50  0001 C CNN
+	1    5625 1075
+	1    0    0    -1  
+$EndComp
+Connection ~ 1520 1375
+Wire Wire Line
+	1520 1375 2000 1375
+Connection ~ 2000 1375
+Wire Wire Line
+	2000 1375 2480 1375
+Connection ~ 2480 1375
+Wire Wire Line
+	2480 1375 2960 1375
+Connection ~ 2960 1375
+Wire Wire Line
+	2960 1375 3440 1375
+Connection ~ 3440 1375
+Wire Wire Line
+	3440 1375 3920 1375
+Connection ~ 3920 1375
+Wire Wire Line
+	3920 1375 4400 1375
+Connection ~ 4400 1375
+Wire Wire Line
+	4400 1375 4880 1375
+Connection ~ 4880 1375
+Wire Wire Line
+	4880 1375 5365 1375
+Connection ~ 5365 1375
+Wire Wire Line
+	5365 1375 5850 1375
+Wire Wire Line
+	5960 1075 5850 1075
+$Comp
+L Diode:1N4148 D11
+U 1 1 5DE08660
+P 5850 1225
+F 0 "D11" V 5896 1146 50  0000 R CNN
+F 1 "1N4148" V 5805 1146 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5850 1050 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5850 1225 50  0001 C CNN
+	1    5850 1225
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R11
+U 1 1 5DE0858E
+P 6110 1075
+F 0 "R11" H 6180 1121 50  0000 L CNN
+F 1 "R" H 6180 1030 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 6040 1075 50  0001 C CNN
+F 3 "~" H 6110 1075 50  0001 C CNN
+	1    6110 1075
+	1    0    0    -1  
+$EndComp
+$Comp
+L mx:MX-1U MX11
+U 1 1 5DE086BC
+P 5985 900
+F 0 "MX11" H 6071 1117 60  0000 C CNN
+F 1 "MX-1U" H 6071 1042 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 5960 875 60  0001 C CNN
+F 3 "" H 5960 875 60  0001 C CNN
+	1    5985 900 
+	1    0    0    -1  
+$EndComp
+Connection ~ 5850 1375
+Wire Wire Line
+	5850 1375 6340 1375
+Connection ~ 6340 1375
+Wire Wire Line
+	6340 1375 6825 1375
+Connection ~ 6825 1375
+Wire Wire Line
+	6825 1375 7315 1375
+Connection ~ 7315 1375
+Wire Wire Line
+	7315 1375 7810 1375
+Connection ~ 7810 1375
+Wire Wire Line
+	7810 1375 8310 1375
+Wire Wire Line
+	1300 1225 1780 1225
+Connection ~ 1780 1225
+Wire Wire Line
+	1780 1225 2260 1225
+Connection ~ 2260 1225
+Wire Wire Line
+	2260 1225 2740 1225
+Connection ~ 2740 1225
+Wire Wire Line
+	2740 1225 3220 1225
+Connection ~ 3220 1225
+Wire Wire Line
+	3220 1225 3700 1225
+Connection ~ 3700 1225
+Wire Wire Line
+	3700 1225 4180 1225
+Connection ~ 4180 1225
+Wire Wire Line
+	4180 1225 4660 1225
+Connection ~ 4660 1225
+Wire Wire Line
+	4660 1225 5140 1225
+Connection ~ 5140 1225
+Wire Wire Line
+	5140 1225 5625 1225
+Connection ~ 5625 1225
+Wire Wire Line
+	5625 1225 6110 1225
+Connection ~ 6110 1225
+Wire Wire Line
+	6110 1225 6600 1225
+Connection ~ 6600 1225
+Wire Wire Line
+	6600 1225 7085 1225
+Connection ~ 7085 1225
+Wire Wire Line
+	7085 1225 7575 1225
+Connection ~ 7575 1225
+Wire Wire Line
+	7575 1225 8070 1225
+Connection ~ 1680 1025
+Wire Wire Line
+	1680 1025 1200 1025
+Connection ~ 2160 1025
+Wire Wire Line
+	2160 1025 1680 1025
+Connection ~ 2640 1025
+Wire Wire Line
+	2640 1025 2160 1025
+Connection ~ 3120 1025
+Wire Wire Line
+	3120 1025 2640 1025
+Connection ~ 3600 1025
+Wire Wire Line
+	3600 1025 3120 1025
+Connection ~ 4080 1025
+Wire Wire Line
+	4080 1025 3600 1025
+Connection ~ 4560 1025
+Wire Wire Line
+	4560 1025 4080 1025
+Connection ~ 5040 1025
+Wire Wire Line
+	5040 1025 4560 1025
+Connection ~ 5525 1025
+Wire Wire Line
+	5525 1025 5040 1025
+Connection ~ 6010 1025
+Wire Wire Line
+	6010 1025 5525 1025
+Connection ~ 6500 1025
+Wire Wire Line
+	6500 1025 6010 1025
+Connection ~ 6985 1025
+Wire Wire Line
+	6985 1025 6500 1025
+Connection ~ 7475 1025
+Wire Wire Line
+	7475 1025 6985 1025
+Wire Wire Line
+	7970 1025 7475 1025
+Connection ~ 7315 2205
+Wire Wire Line
+	1040 2205 1520 2205
+Wire Wire Line
+	7475 1855 6985 1855
+$Comp
+L Device:R R31
+U 1 1 5DF16E9A
+P 8070 1905
+F 0 "R31" H 8140 1951 50  0000 L CNN
+F 1 "R" H 8140 1860 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 8000 1905 50  0001 C CNN
+F 3 "~" H 8070 1905 50  0001 C CNN
+	1    8070 1905
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8470 1855 7970 1855
+Connection ~ 4180 2055
+Connection ~ 3120 1855
+Wire Wire Line
+	1520 2205 2000 2205
+$Comp
+L mx:MX-1U MX23
+U 1 1 5DF16EAF
+P 4055 1730
+F 0 "MX23" H 4141 1947 60  0000 C CNN
+F 1 "MX-1U" H 4141 1872 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 4030 1705 60  0001 C CNN
+F 3 "" H 4030 1705 60  0001 C CNN
+	1    4055 1730
+	1    0    0    -1  
+$EndComp
+Connection ~ 2640 1855
+Connection ~ 5525 1855
+Connection ~ 4400 2205
+Wire Wire Line
+	4880 2205 5365 2205
+Wire Wire Line
+	4660 2055 5140 2055
+Wire Wire Line
+	5040 1855 4560 1855
+$Comp
+L Device:R R19
+U 1 1 5DF16EC4
+P 2260 1905
+F 0 "R19" H 2330 1951 50  0000 L CNN
+F 1 "R" H 2330 1860 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 2190 1905 50  0001 C CNN
+F 3 "~" H 2260 1905 50  0001 C CNN
+	1    2260 1905
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3920 2205 4400 2205
+$Comp
+L Device:R R26
+U 1 1 5DF16ED3
+P 5625 1905
+F 0 "R26" H 5695 1951 50  0000 L CNN
+F 1 "R" H 5695 1860 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5555 1905 50  0001 C CNN
+F 3 "~" H 5625 1905 50  0001 C CNN
+	1    5625 1905
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6825 2205 7315 2205
+$Comp
+L mx:MX-1U MX18
+U 1 1 5DF16EE4
+P 1655 1730
+F 0 "MX18" H 1741 1947 60  0000 C CNN
+F 1 "MX-1U" H 1741 1872 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 1630 1705 60  0001 C CNN
+F 3 "" H 1630 1705 60  0001 C CNN
+	1    1655 1730
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D25
+U 1 1 5DF16EF2
+P 4880 2055
+F 0 "D25" V 4926 1976 50  0000 R CNN
+F 1 "1N4148" V 4835 1976 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4880 1880 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4880 2055 50  0001 C CNN
+	1    4880 2055
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7425 1905 7315 1905
+$Comp
+L Diode:1N4148 D22
+U 1 1 5DF16F02
+P 3440 2055
+F 0 "D22" V 3486 1976 50  0000 R CNN
+F 1 "1N4148" V 3395 1976 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3440 1880 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 3440 2055 50  0001 C CNN
+	1    3440 2055
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5475 1905 5365 1905
+Connection ~ 6110 2055
+Connection ~ 5625 2055
+$Comp
+L mx:MX-1U MX29
+U 1 1 5DF16F16
+P 6960 1730
+F 0 "MX29" H 7046 1947 60  0000 C CNN
+F 1 "MX-1U" H 7046 1872 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 6935 1705 60  0001 C CNN
+F 3 "" H 6935 1705 60  0001 C CNN
+	1    6960 1730
+	1    0    0    -1  
+$EndComp
+Connection ~ 2740 2055
+Wire Wire Line
+	2740 2055 3220 2055
+$Comp
+L Device:R R20
+U 1 1 5DF16F26
+P 2740 1905
+F 0 "R20" H 2810 1951 50  0000 L CNN
+F 1 "R" H 2810 1860 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 2670 1905 50  0001 C CNN
+F 3 "~" H 2740 1905 50  0001 C CNN
+	1    2740 1905
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8420 1905 8310 1905
+$Comp
+L Diode:1N4148 D29
+U 1 1 5DF16F35
+P 6825 2055
+F 0 "D29" V 6871 1976 50  0000 R CNN
+F 1 "1N4148" V 6780 1976 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6825 1880 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6825 2055 50  0001 C CNN
+	1    6825 2055
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6340 2205 6825 2205
+Wire Wire Line
+	3550 1905 3440 1905
+$Comp
+L mx:MX-1U MX28
+U 1 1 5DF16F55
+P 6475 1730
+F 0 "MX28" H 6561 1947 60  0000 C CNN
+F 1 "MX-1U" H 6561 1872 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 6450 1705 60  0001 C CNN
+F 3 "" H 6450 1705 60  0001 C CNN
+	1    6475 1730
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R29
+U 1 1 5DF16F63
+P 7085 1905
+F 0 "R29" H 7155 1951 50  0000 L CNN
+F 1 "R" H 7155 1860 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 7015 1905 50  0001 C CNN
+F 3 "~" H 7085 1905 50  0001 C CNN
+	1    7085 1905
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7970 1855 7475 1855
+Wire Wire Line
+	5140 2055 5625 2055
+Wire Wire Line
+	1630 1905 1520 1905
+Connection ~ 4880 2205
+$Comp
+L Diode:1N4148 D18
+U 1 1 5DF16F77
+P 1520 2055
+F 0 "D18" V 1566 1976 50  0000 R CNN
+F 1 "1N4148" V 1475 1976 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 1520 1880 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 1520 2055 50  0001 C CNN
+	1    1520 2055
+	0    -1   -1   0   
+$EndComp
+Connection ~ 5040 1855
+Connection ~ 2260 2055
+Connection ~ 2480 2205
+Wire Wire Line
+	7575 2055 8070 2055
+Connection ~ 2160 1855
+$Comp
+L Diode:1N4148 D23
+U 1 1 5DF16F8A
+P 3920 2055
+F 0 "D23" V 3966 1976 50  0000 R CNN
+F 1 "1N4148" V 3875 1976 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3920 1880 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 3920 2055 50  0001 C CNN
+	1    3920 2055
+	0    -1   -1   0   
+$EndComp
+Connection ~ 8070 2055
+Connection ~ 3600 1855
+Wire Wire Line
+	3120 1855 2640 1855
+Connection ~ 7575 2055
+$Comp
+L mx:MX-1U MX30
+U 1 1 5DF16F9E
+P 7450 1730
+F 0 "MX30" H 7536 1947 60  0000 C CNN
+F 1 "MX-1U" H 7536 1872 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 7425 1705 60  0001 C CNN
+F 3 "" H 7425 1705 60  0001 C CNN
+	1    7450 1730
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4180 2055 4660 2055
+Connection ~ 5850 2205
+Wire Wire Line
+	5525 1855 5040 1855
+Connection ~ 7475 1855
+$Comp
+L mx:MX-1U MX22
+U 1 1 5DF16FB2
+P 3575 1730
+F 0 "MX22" H 3661 1947 60  0000 C CNN
+F 1 "MX-1U" H 3661 1872 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 3550 1705 60  0001 C CNN
+F 3 "" H 3550 1705 60  0001 C CNN
+	1    3575 1730
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1150 1905 1040 1905
+Wire Wire Line
+	7810 2205 8310 2205
+Connection ~ 6600 2055
+Wire Wire Line
+	6110 2055 6600 2055
+Wire Wire Line
+	2160 1855 1680 1855
+Wire Wire Line
+	6450 1905 6340 1905
+Wire Wire Line
+	3700 2055 4180 2055
+Wire Wire Line
+	2590 1905 2480 1905
+Wire Wire Line
+	5625 2055 6110 2055
+Wire Wire Line
+	5850 2205 6340 2205
+Connection ~ 6825 2205
+Connection ~ 2960 2205
+$Comp
+L Diode:1N4148 D32
+U 1 1 5DF16FCC
+P 8310 2055
+F 0 "D32" V 8356 1976 50  0000 R CNN
+F 1 "1N4148" V 8265 1976 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 8310 1880 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8310 2055 50  0001 C CNN
+	1    8310 2055
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2640 1855 2160 1855
+Connection ~ 3920 2205
+$Comp
+L Device:R R21
+U 1 1 5DF16FDC
+P 3220 1905
+F 0 "R21" H 3290 1951 50  0000 L CNN
+F 1 "R" H 3290 1860 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3150 1905 50  0001 C CNN
+F 3 "~" H 3220 1905 50  0001 C CNN
+	1    3220 1905
+	1    0    0    -1  
+$EndComp
+Connection ~ 3220 2055
+Connection ~ 6010 1855
+Wire Wire Line
+	4560 1855 4080 1855
+Connection ~ 6500 1855
+Connection ~ 5140 2055
+Connection ~ 6985 1855
+$Comp
+L Diode:1N4148 D31
+U 1 1 5DF16FF0
+P 7810 2055
+F 0 "D31" V 7856 1976 50  0000 R CNN
+F 1 "1N4148" V 7765 1976 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7810 1880 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7810 2055 50  0001 C CNN
+	1    7810 2055
+	0    -1   -1   0   
+$EndComp
+Connection ~ 5365 2205
+$Comp
+L Diode:1N4148 D28
+U 1 1 5DF16FFF
+P 6340 2055
+F 0 "D28" V 6386 1976 50  0000 R CNN
+F 1 "1N4148" V 6295 1976 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6340 1880 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6340 2055 50  0001 C CNN
+	1    6340 2055
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4510 1905 4400 1905
+$Comp
+L Device:R R23
+U 1 1 5DF1700E
+P 4180 1905
+F 0 "R23" H 4250 1951 50  0000 L CNN
+F 1 "R" H 4250 1860 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4110 1905 50  0001 C CNN
+F 3 "~" H 4180 1905 50  0001 C CNN
+	1    4180 1905
+	1    0    0    -1  
+$EndComp
+Connection ~ 7085 2055
+Wire Wire Line
+	2260 2055 2740 2055
+$Comp
+L mx:MX-1U MX31
+U 1 1 5DF17020
+P 7945 1730
+F 0 "MX31" H 8031 1947 60  0000 C CNN
+F 1 "MX-1U" H 8031 1872 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 7920 1705 60  0001 C CNN
+F 3 "" H 7920 1705 60  0001 C CNN
+	1    7945 1730
+	1    0    0    -1  
+$EndComp
+Connection ~ 1780 2055
+Connection ~ 1680 1855
+$Comp
+L mx:MX-1U MX27
+U 1 1 5DF17033
+P 5985 1730
+F 0 "MX27" H 6071 1947 60  0000 C CNN
+F 1 "MX-1U" H 6071 1872 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 5960 1705 60  0001 C CNN
+F 3 "" H 5960 1705 60  0001 C CNN
+	1    5985 1730
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D30
+U 1 1 5DF17041
+P 7315 2055
+F 0 "D30" V 7361 1976 50  0000 R CNN
+F 1 "1N4148" V 7270 1976 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7315 1880 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7315 2055 50  0001 C CNN
+	1    7315 2055
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R22
+U 1 1 5DF1704F
+P 3700 1905
+F 0 "R22" H 3770 1951 50  0000 L CNN
+F 1 "R" H 3770 1860 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3630 1905 50  0001 C CNN
+F 3 "~" H 3700 1905 50  0001 C CNN
+	1    3700 1905
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R27
+U 1 1 5DF1705D
+P 6110 1905
+F 0 "R27" H 6180 1951 50  0000 L CNN
+F 1 "R" H 6180 1860 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 6040 1905 50  0001 C CNN
+F 3 "~" H 6110 1905 50  0001 C CNN
+	1    6110 1905
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D20
+U 1 1 5DF1706B
+P 2480 2055
+F 0 "D20" V 2526 1976 50  0000 R CNN
+F 1 "1N4148" V 2435 1976 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2480 1880 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 2480 2055 50  0001 C CNN
+	1    2480 2055
+	0    -1   -1   0   
+$EndComp
+Connection ~ 1520 2205
+Wire Wire Line
+	7315 2205 7810 2205
+Connection ~ 4080 1855
+Connection ~ 3440 2205
+$Comp
+L mx:MX-1U MX32
+U 1 1 5DF17080
+P 8445 1730
+F 0 "MX32" H 8531 1947 60  0000 C CNN
+F 1 "MX-1U" H 8531 1872 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 8420 1705 60  0001 C CNN
+F 3 "" H 8420 1705 60  0001 C CNN
+	1    8445 1730
+	1    0    0    -1  
+$EndComp
+Connection ~ 7810 2205
+Wire Wire Line
+	3070 1905 2960 1905
+Wire Wire Line
+	2480 2205 2960 2205
+Wire Wire Line
+	4400 2205 4880 2205
+$Comp
+L mx:MX-1U MX26
+U 1 1 5DF170A4
+P 5500 1730
+F 0 "MX26" H 5586 1947 60  0000 C CNN
+F 1 "MX-1U" H 5586 1872 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 5475 1705 60  0001 C CNN
+F 3 "" H 5475 1705 60  0001 C CNN
+	1    5500 1730
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D26
+U 1 1 5DF170B2
+P 5365 2055
+F 0 "D26" V 5411 1976 50  0000 R CNN
+F 1 "1N4148" V 5320 1976 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5365 1880 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5365 2055 50  0001 C CNN
+	1    5365 2055
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1780 2055 2260 2055
+Wire Wire Line
+	7920 1905 7810 1905
+$Comp
+L mx:MX-1U MX20
+U 1 1 5DF170C5
+P 2615 1730
+F 0 "MX20" H 2701 1947 60  0000 C CNN
+F 1 "MX-1U" H 2701 1872 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 2590 1705 60  0001 C CNN
+F 3 "" H 2590 1705 60  0001 C CNN
+	1    2615 1730
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D27
+U 1 1 5DF170D3
+P 5850 2055
+F 0 "D27" V 5896 1976 50  0000 R CNN
+F 1 "1N4148" V 5805 1976 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5850 1880 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5850 2055 50  0001 C CNN
+	1    5850 2055
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4990 1905 4880 1905
+Wire Wire Line
+	3220 2055 3700 2055
+Wire Wire Line
+	6600 2055 7085 2055
+Connection ~ 2000 2205
+$Comp
+L mx:MX-1U MX24
+U 1 1 5DF170E7
+P 4535 1730
+F 0 "MX24" H 4621 1947 60  0000 C CNN
+F 1 "MX-1U" H 4621 1872 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 4510 1705 60  0001 C CNN
+F 3 "" H 4510 1705 60  0001 C CNN
+	1    4535 1730
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D19
+U 1 1 5DF170F5
+P 2000 2055
+F 0 "D19" V 2046 1976 50  0000 R CNN
+F 1 "1N4148" V 1955 1976 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2000 1880 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 2000 2055 50  0001 C CNN
+	1    2000 2055
+	0    -1   -1   0   
+$EndComp
+$Comp
+L mx:MX-1U MX25
+U 1 1 5DF17105
+P 5015 1730
+F 0 "MX25" H 5101 1947 60  0000 C CNN
+F 1 "MX-1U" H 5101 1872 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 4990 1705 60  0001 C CNN
+F 3 "" H 4990 1705 60  0001 C CNN
+	1    5015 1730
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4080 1855 3600 1855
+Wire Wire Line
+	8070 2055 8570 2055
+$Comp
+L Device:R R25
+U 1 1 5DF17115
+P 5140 1905
+F 0 "R25" H 5210 1951 50  0000 L CNN
+F 1 "R" H 5210 1860 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5070 1905 50  0001 C CNN
+F 3 "~" H 5140 1905 50  0001 C CNN
+	1    5140 1905
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4030 1905 3920 1905
+Wire Wire Line
+	6935 1905 6825 1905
+Wire Wire Line
+	5365 2205 5850 2205
+$Comp
+L mx:MX-1U MX17
+U 1 1 5DF17136
+P 1175 1730
+F 0 "MX17" H 1261 1947 60  0000 C CNN
+F 1 "MX-1U" H 1261 1872 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 1150 1705 60  0001 C CNN
+F 3 "" H 1150 1705 60  0001 C CNN
+	1    1175 1730
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D17
+U 1 1 5DF17144
+P 1040 2055
+F 0 "D17" V 1086 1976 50  0000 R CNN
+F 1 "1N4148" V 995 1976 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 1040 1880 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 1040 2055 50  0001 C CNN
+	1    1040 2055
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5960 1905 5850 1905
+Wire Wire Line
+	2110 1905 2000 1905
+Wire Wire Line
+	3600 1855 3120 1855
+Connection ~ 3700 2055
+Connection ~ 4660 2055
+Wire Wire Line
+	7085 2055 7575 2055
+Wire Wire Line
+	1680 1855 1200 1855
+Wire Wire Line
+	6985 1855 6500 1855
+$Comp
+L Device:R R30
+U 1 1 5DF1715A
+P 7575 1905
+F 0 "R30" H 7645 1951 50  0000 L CNN
+F 1 "R" H 7645 1860 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 7505 1905 50  0001 C CNN
+F 3 "~" H 7575 1905 50  0001 C CNN
+	1    7575 1905
+	1    0    0    -1  
+$EndComp
+Connection ~ 4560 1855
+Wire Wire Line
+	2960 2205 3440 2205
+Connection ~ 6340 2205
+$Comp
+L Device:R R32
+U 1 1 5DF1716B
+P 8570 1905
+F 0 "R32" H 8640 1951 50  0000 L CNN
+F 1 "R" H 8640 1860 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 8500 1905 50  0001 C CNN
+F 3 "~" H 8570 1905 50  0001 C CNN
+	1    8570 1905
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6010 1855 5525 1855
+Wire Wire Line
+	1300 2055 1780 2055
+$Comp
+L Device:R R24
+U 1 1 5DF1717B
+P 4660 1905
+F 0 "R24" H 4730 1951 50  0000 L CNN
+F 1 "R" H 4730 1860 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4590 1905 50  0001 C CNN
+F 3 "~" H 4660 1905 50  0001 C CNN
+	1    4660 1905
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R28
+U 1 1 5DF17189
+P 6600 1905
+F 0 "R28" H 6670 1951 50  0000 L CNN
+F 1 "R" H 6670 1860 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 6530 1905 50  0001 C CNN
+F 3 "~" H 6600 1905 50  0001 C CNN
+	1    6600 1905
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D21
+U 1 1 5DF17197
+P 2960 2055
+F 0 "D21" V 3006 1976 50  0000 R CNN
+F 1 "1N4148" V 2915 1976 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2960 1880 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 2960 2055 50  0001 C CNN
+	1    2960 2055
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6500 1855 6010 1855
+$Comp
+L mx:MX-1U MX21
+U 1 1 5DF171A8
+P 3095 1730
+F 0 "MX21" H 3181 1947 60  0000 C CNN
+F 1 "MX-1U" H 3181 1872 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 3070 1705 60  0001 C CNN
+F 3 "" H 3070 1705 60  0001 C CNN
+	1    3095 1730
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R17
+U 1 1 5DF171B6
+P 1300 1905
+F 0 "R17" H 1370 1951 50  0000 L CNN
+F 1 "R" H 1370 1860 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 1230 1905 50  0001 C CNN
+F 3 "~" H 1300 1905 50  0001 C CNN
+	1    1300 1905
+	1    0    0    -1  
+$EndComp
+$Comp
+L mx:MX-1U MX19
+U 1 1 5DF171C6
+P 2135 1730
+F 0 "MX19" H 2221 1947 60  0000 C CNN
+F 1 "MX-1U" H 2221 1872 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 2110 1705 60  0001 C CNN
+F 3 "" H 2110 1705 60  0001 C CNN
+	1    2135 1730
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3440 2205 3920 2205
+$Comp
+L Diode:1N4148 D24
+U 1 1 5DF171D5
+P 4400 2055
+F 0 "D24" V 4446 1976 50  0000 R CNN
+F 1 "1N4148" V 4355 1976 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4400 1880 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4400 2055 50  0001 C CNN
+	1    4400 2055
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R18
+U 1 1 5DF171E3
+P 1780 1905
+F 0 "R18" H 1850 1951 50  0000 L CNN
+F 1 "R" H 1850 1860 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 1710 1905 50  0001 C CNN
+F 3 "~" H 1780 1905 50  0001 C CNN
+	1    1780 1905
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 2205 2480 2205
+Connection ~ 7970 1855
+$Comp
+L Diode:1N4148 D64
+U 1 1 5DF4E94A
+P 7315 3730
+F 0 "D64" V 7361 3651 50  0000 R CNN
+F 1 "1N4148" V 7270 3651 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7315 3555 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7315 3730 50  0001 C CNN
+	1    7315 3730
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2260 3730 2740 3730
+Connection ~ 7315 3050
+Connection ~ 4080 3530
+$Comp
+L Device:R R62
+U 1 1 5DF4E95B
+P 6600 3580
+F 0 "R62" H 6670 3626 50  0000 L CNN
+F 1 "R" H 6670 3535 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 6530 3580 50  0001 C CNN
+F 3 "~" H 6600 3580 50  0001 C CNN
+	1    6600 3580
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R67
+U 1 1 5DF4E969
+P 9070 3580
+F 0 "R67" H 9140 3626 50  0000 L CNN
+F 1 "R" H 9140 3535 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 9000 3580 50  0001 C CNN
+F 3 "~" H 9070 3580 50  0001 C CNN
+	1    9070 3580
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1040 3050 1520 3050
+Wire Wire Line
+	7475 2700 6985 2700
+Connection ~ 7970 3530
+$Comp
+L Device:R R56
+U 1 1 5DF4E97A
+P 3700 3580
+F 0 "R56" H 3770 3626 50  0000 L CNN
+F 1 "R" H 3770 3535 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3630 3580 50  0001 C CNN
+F 3 "~" H 3700 3580 50  0001 C CNN
+	1    3700 3580
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R60
+U 1 1 5DF4E988
+P 5625 3580
+F 0 "R60" H 5695 3626 50  0000 L CNN
+F 1 "R" H 5695 3535 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5555 3580 50  0001 C CNN
+F 3 "~" H 5625 3580 50  0001 C CNN
+	1    5625 3580
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R48
+U 1 1 5DF4E996
+P 8070 2750
+F 0 "R48" H 8140 2796 50  0000 L CNN
+F 1 "R" H 8140 2705 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 8000 2750 50  0001 C CNN
+F 3 "~" H 8070 2750 50  0001 C CNN
+	1    8070 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2160 3530 1680 3530
+Wire Wire Line
+	8570 2900 9070 2900
+Wire Wire Line
+	8470 2700 7970 2700
+Connection ~ 5040 3530
+Connection ~ 3220 3730
+Wire Wire Line
+	2590 3580 2480 3580
+Wire Wire Line
+	3440 3880 3920 3880
+Connection ~ 4180 2900
+Connection ~ 3440 3880
+Connection ~ 2480 3880
+Connection ~ 3120 2700
+Wire Wire Line
+	1520 3050 2000 3050
+$Comp
+L mx:MX-1U MX40
+U 1 1 5DF4E9B2
+P 4055 2575
+F 0 "MX40" H 4141 2792 60  0000 C CNN
+F 1 "MX-1U" H 4141 2717 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 4030 2550 60  0001 C CNN
+F 3 "" H 4030 2550 60  0001 C CNN
+	1    4055 2575
+	1    0    0    -1  
+$EndComp
+Connection ~ 2640 2700
+Connection ~ 6600 3730
+Connection ~ 5525 2700
+Connection ~ 4400 3050
+Connection ~ 1680 3530
+$Comp
+L Diode:1N4148 D56
+U 1 1 5DF4E9C5
+P 3440 3730
+F 0 "D56" V 3486 3651 50  0000 R CNN
+F 1 "1N4148" V 3395 3651 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3440 3555 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 3440 3730 50  0001 C CNN
+	1    3440 3730
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R54
+U 1 1 5DF4E9D3
+P 2740 3580
+F 0 "R54" H 2810 3626 50  0000 L CNN
+F 1 "R" H 2810 3535 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 2670 3580 50  0001 C CNN
+F 3 "~" H 2740 3580 50  0001 C CNN
+	1    2740 3580
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4880 3050 5365 3050
+Connection ~ 6825 3880
+Wire Wire Line
+	4660 2900 5140 2900
+Connection ~ 8470 2700
+Wire Wire Line
+	5040 2700 4560 2700
+Wire Wire Line
+	3120 3530 2640 3530
+$Comp
+L Device:R R36
+U 1 1 5DF4E9E7
+P 2260 2750
+F 0 "R36" H 2330 2796 50  0000 L CNN
+F 1 "R" H 2330 2705 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 2190 2750 50  0001 C CNN
+F 3 "~" H 2260 2750 50  0001 C CNN
+	1    2260 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3920 3050 4400 3050
+$Comp
+L Device:R R43
+U 1 1 5DF4E9F6
+P 5625 2750
+F 0 "R43" H 5695 2796 50  0000 L CNN
+F 1 "R" H 5695 2705 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5555 2750 50  0001 C CNN
+F 3 "~" H 5625 2750 50  0001 C CNN
+	1    5625 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D61
+U 1 1 5DF4EA04
+P 5850 3730
+F 0 "D61" V 5896 3651 50  0000 R CNN
+F 1 "1N4148" V 5805 3651 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5850 3555 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5850 3730 50  0001 C CNN
+	1    5850 3730
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6825 3050 7315 3050
+Connection ~ 2640 3530
+Connection ~ 1780 3730
+Wire Wire Line
+	5475 3580 5365 3580
+$Comp
+L mx:MX-1U MX35
+U 1 1 5DF4EA18
+P 1655 2575
+F 0 "MX35" H 1741 2792 60  0000 C CNN
+F 1 "MX-1U" H 1741 2717 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 1630 2550 60  0001 C CNN
+F 3 "" H 1630 2550 60  0001 C CNN
+	1    1655 2575
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D42
+U 1 1 5DF4EA26
+P 4880 2900
+F 0 "D42" V 4926 2821 50  0000 R CNN
+F 1 "1N4148" V 4835 2821 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4880 2725 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4880 2900 50  0001 C CNN
+	1    4880 2900
+	0    -1   -1   0   
+$EndComp
+Connection ~ 2740 3730
+Wire Wire Line
+	7085 3730 7575 3730
+Wire Wire Line
+	1680 3530 1200 3530
+Wire Wire Line
+	8970 2700 8470 2700
+$Comp
+L Device:R R53
+U 1 1 5DF4EA38
+P 2260 3580
+F 0 "R53" H 2330 3626 50  0000 L CNN
+F 1 "R" H 2330 3535 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 2190 3580 50  0001 C CNN
+F 3 "~" H 2260 3580 50  0001 C CNN
+	1    2260 3580
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1040 3880 1520 3880
+Wire Wire Line
+	3920 3880 4400 3880
+Connection ~ 5850 3880
+Wire Wire Line
+	7425 2750 7315 2750
+$Comp
+L mx:MX-1U MX63
+U 1 1 5DF4EA4D
+P 6960 3405
+F 0 "MX63" H 7046 3622 60  0000 C CNN
+F 1 "MX-1U" H 7046 3547 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 6935 3380 60  0001 C CNN
+F 3 "" H 6935 3380 60  0001 C CNN
+	1    6960 3405
+	1    0    0    -1  
+$EndComp
+Connection ~ 5140 3730
+$Comp
+L Diode:1N4148 D39
+U 1 1 5DF4EA5C
+P 3440 2900
+F 0 "D39" V 3486 2821 50  0000 R CNN
+F 1 "1N4148" V 3395 2821 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3440 2725 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 3440 2900 50  0001 C CNN
+	1    3440 2900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5475 2750 5365 2750
+$Comp
+L mx:MX-1U MX53
+U 1 1 5DF4EA6D
+P 2135 3405
+F 0 "MX53" H 2221 3622 60  0000 C CNN
+F 1 "MX-1U" H 2221 3547 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 2110 3380 60  0001 C CNN
+F 3 "" H 2110 3380 60  0001 C CNN
+	1    2135 3405
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 3880 2480 3880
+Connection ~ 6110 2900
+Connection ~ 5625 2900
+$Comp
+L mx:MX-1U MX46
+U 1 1 5DF4EA81
+P 6960 2575
+F 0 "MX46" H 7046 2792 60  0000 C CNN
+F 1 "MX-1U" H 7046 2717 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 6935 2550 60  0001 C CNN
+F 3 "" H 6935 2550 60  0001 C CNN
+	1    6960 2575
+	1    0    0    -1  
+$EndComp
+Connection ~ 6985 3530
+Connection ~ 2740 2900
+Wire Wire Line
+	2740 2900 3220 2900
+$Comp
+L Device:R R37
+U 1 1 5DF4EA92
+P 2740 2750
+F 0 "R37" H 2810 2796 50  0000 L CNN
+F 1 "R" H 2810 2705 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 2670 2750 50  0001 C CNN
+F 3 "~" H 2740 2750 50  0001 C CNN
+	1    2740 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8420 2750 8310 2750
+$Comp
+L Device:R R55
+U 1 1 5DF4EAA1
+P 3220 3580
+F 0 "R55" H 3290 3626 50  0000 L CNN
+F 1 "R" H 3290 3535 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3150 3580 50  0001 C CNN
+F 3 "~" H 3220 3580 50  0001 C CNN
+	1    3220 3580
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D46
+U 1 1 5DF4EAAF
+P 6825 2900
+F 0 "D46" V 6871 2821 50  0000 R CNN
+F 1 "1N4148" V 6780 2821 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6825 2725 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6825 2900 50  0001 C CNN
+	1    6825 2900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6340 3050 6825 3050
+Wire Wire Line
+	3550 2750 3440 2750
+Connection ~ 6340 3880
+$Comp
+L Device:R R50
+U 1 1 5DF4EAC0
+P 9070 2750
+F 0 "R50" H 9140 2796 50  0000 L CNN
+F 1 "R" H 9140 2705 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 9000 2750 50  0001 C CNN
+F 3 "~" H 9070 2750 50  0001 C CNN
+	1    9070 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D65
+U 1 1 5DF4EACE
+P 7810 3730
+F 0 "D65" V 7856 3651 50  0000 R CNN
+F 1 "1N4148" V 7765 3651 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7810 3555 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7810 3730 50  0001 C CNN
+	1    7810 3730
+	0    -1   -1   0   
+$EndComp
+$Comp
+L mx:MX-1U MX45
+U 1 1 5DF4EADE
+P 6475 2575
+F 0 "MX45" H 6561 2792 60  0000 C CNN
+F 1 "MX-1U" H 6561 2717 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 6450 2550 60  0001 C CNN
+F 3 "" H 6450 2550 60  0001 C CNN
+	1    6475 2575
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8310 3880 8810 3880
+$Comp
+L Device:R R46
+U 1 1 5DF4EAED
+P 7085 2750
+F 0 "R46" H 7155 2796 50  0000 L CNN
+F 1 "R" H 7155 2705 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 7015 2750 50  0001 C CNN
+F 3 "~" H 7085 2750 50  0001 C CNN
+	1    7085 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D66
+U 1 1 5DF4EAFB
+P 8310 3730
+F 0 "D66" V 8356 3651 50  0000 R CNN
+F 1 "1N4148" V 8265 3651 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 8310 3555 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8310 3730 50  0001 C CNN
+	1    8310 3730
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4030 3580 3920 3580
+Wire Wire Line
+	6935 3580 6825 3580
+Wire Wire Line
+	7970 2700 7475 2700
+Wire Wire Line
+	5140 2900 5625 2900
+$Comp
+L Device:R R63
+U 1 1 5DF4EB0E
+P 7085 3580
+F 0 "R63" H 7155 3626 50  0000 L CNN
+F 1 "R" H 7155 3535 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 7015 3580 50  0001 C CNN
+F 3 "~" H 7085 3580 50  0001 C CNN
+	1    7085 3580
+	1    0    0    -1  
+$EndComp
+Connection ~ 8570 2900
+Wire Wire Line
+	1630 2750 1520 2750
+Connection ~ 4880 3050
+Wire Wire Line
+	4510 3580 4400 3580
+Connection ~ 7810 3880
+Connection ~ 5365 3880
+Wire Wire Line
+	8470 3530 7970 3530
+$Comp
+L mx:MX-1U MX60
+U 1 1 5DF4EB25
+P 5500 3405
+F 0 "MX60" H 5586 3622 60  0000 C CNN
+F 1 "MX-1U" H 5586 3547 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 5475 3380 60  0001 C CNN
+F 3 "" H 5475 3380 60  0001 C CNN
+	1    5500 3405
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D35
+U 1 1 5DF4EB33
+P 1520 2900
+F 0 "D35" V 1566 2821 50  0000 R CNN
+F 1 "1N4148" V 1475 2821 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 1520 2725 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 1520 2900 50  0001 C CNN
+	1    1520 2900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4180 3730 4660 3730
+Connection ~ 5040 2700
+$Comp
+L Diode:1N4148 D62
+U 1 1 5DF4EB43
+P 6340 3730
+F 0 "D62" V 6386 3651 50  0000 R CNN
+F 1 "1N4148" V 6295 3651 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6340 3555 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6340 3730 50  0001 C CNN
+	1    6340 3730
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7475 3530 6985 3530
+Connection ~ 2260 2900
+Connection ~ 2480 3050
+Wire Wire Line
+	5525 3530 5040 3530
+$Comp
+L Diode:1N4148 D55
+U 1 1 5DF4EB55
+P 2960 3730
+F 0 "D55" V 3006 3651 50  0000 R CNN
+F 1 "1N4148" V 2915 3651 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2960 3555 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 2960 3730 50  0001 C CNN
+	1    2960 3730
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6500 3530 6010 3530
+Wire Wire Line
+	7575 2900 8070 2900
+$Comp
+L Device:R R51
+U 1 1 5DF4EB65
+P 1300 3580
+F 0 "R51" H 1370 3626 50  0000 L CNN
+F 1 "R" H 1370 3535 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 1230 3580 50  0001 C CNN
+F 3 "~" H 1300 3580 50  0001 C CNN
+	1    1300 3580
+	1    0    0    -1  
+$EndComp
+$Comp
+L mx:MX-1U MX54
+U 1 1 5DF4EB75
+P 2615 3405
+F 0 "MX54" H 2701 3622 60  0000 C CNN
+F 1 "MX-1U" H 2701 3547 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 2590 3380 60  0001 C CNN
+F 3 "" H 2590 3380 60  0001 C CNN
+	1    2615 3405
+	1    0    0    -1  
+$EndComp
+Connection ~ 2160 2700
+$Comp
+L Diode:1N4148 D40
+U 1 1 5DF4EB84
+P 3920 2900
+F 0 "D40" V 3966 2821 50  0000 R CNN
+F 1 "1N4148" V 3875 2821 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3920 2725 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 3920 2900 50  0001 C CNN
+	1    3920 2900
+	0    -1   -1   0   
+$EndComp
+Connection ~ 8070 2900
+Wire Wire Line
+	8570 3730 9070 3730
+Connection ~ 3600 2700
+Wire Wire Line
+	3120 2700 2640 2700
+Connection ~ 7575 2900
+$Comp
+L Diode:1N4148 D51
+U 1 1 5DF4EB97
+P 1040 3730
+F 0 "D51" V 1086 3651 50  0000 R CNN
+F 1 "1N4148" V 995 3651 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 1040 3555 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 1040 3730 50  0001 C CNN
+	1    1040 3730
+	0    -1   -1   0   
+$EndComp
+$Comp
+L mx:MX-1U MX47
+U 1 1 5DF4EBA7
+P 7450 2575
+F 0 "MX47" H 7536 2792 60  0000 C CNN
+F 1 "MX-1U" H 7536 2717 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 7425 2550 60  0001 C CNN
+F 3 "" H 7425 2550 60  0001 C CNN
+	1    7450 2575
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4180 2900 4660 2900
+Wire Wire Line
+	6825 3880 7315 3880
+Wire Wire Line
+	6110 3730 6600 3730
+Wire Wire Line
+	7810 3880 8310 3880
+Connection ~ 5850 3050
+Wire Wire Line
+	5525 2700 5040 2700
+Connection ~ 7475 2700
+$Comp
+L mx:MX-1U MX39
+U 1 1 5DF4EBBE
+P 3575 2575
+F 0 "MX39" H 3661 2792 60  0000 C CNN
+F 1 "MX-1U" H 3661 2717 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 3550 2550 60  0001 C CNN
+F 3 "" H 3550 2550 60  0001 C CNN
+	1    3575 2575
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2110 3580 2000 3580
+Wire Wire Line
+	3600 3530 3120 3530
+$Comp
+L mx:MX-1U MX67
+U 1 1 5DF4EBD0
+P 8945 3405
+F 0 "MX67" H 9031 3622 60  0000 C CNN
+F 1 "MX-1U" H 9031 3547 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 8920 3380 60  0001 C CNN
+F 3 "" H 8920 3380 60  0001 C CNN
+	1    8945 3405
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1150 2750 1040 2750
+Wire Wire Line
+	7810 3050 8310 3050
+Connection ~ 6600 2900
+Wire Wire Line
+	6110 2900 6600 2900
+Wire Wire Line
+	2160 2700 1680 2700
+Wire Wire Line
+	6450 2750 6340 2750
+Wire Wire Line
+	3700 2900 4180 2900
+Wire Wire Line
+	2590 2750 2480 2750
+Wire Wire Line
+	5625 2900 6110 2900
+Wire Wire Line
+	5850 3050 6340 3050
+Connection ~ 6825 3050
+Connection ~ 2960 3050
+$Comp
+L Diode:1N4148 D49
+U 1 1 5DF4EBEA
+P 8310 2900
+F 0 "D49" V 8356 2821 50  0000 R CNN
+F 1 "1N4148" V 8265 2821 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 8310 2725 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8310 2900 50  0001 C CNN
+	1    8310 2900
+	0    -1   -1   0   
+$EndComp
+Connection ~ 8570 3730
+Wire Wire Line
+	2640 2700 2160 2700
+Connection ~ 3920 3050
+Wire Wire Line
+	1520 3880 2000 3880
+Wire Wire Line
+	7425 3580 7315 3580
+$Comp
+L mx:MX-1U MX64
+U 1 1 5DF4EBFF
+P 7450 3405
+F 0 "MX64" H 7536 3622 60  0000 C CNN
+F 1 "MX-1U" H 7536 3547 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 7425 3380 60  0001 C CNN
+F 3 "" H 7425 3380 60  0001 C CNN
+	1    7450 3405
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R38
+U 1 1 5DF4EC0D
+P 3220 2750
+F 0 "R38" H 3290 2796 50  0000 L CNN
+F 1 "R" H 3290 2705 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3150 2750 50  0001 C CNN
+F 3 "~" H 3220 2750 50  0001 C CNN
+	1    3220 2750
+	1    0    0    -1  
+$EndComp
+Connection ~ 7085 3730
+Connection ~ 3220 2900
+Connection ~ 6010 2700
+Wire Wire Line
+	4560 2700 4080 2700
+$Comp
+L mx:MX-1U MX56
+U 1 1 5DF4EC21
+P 3575 3405
+F 0 "MX56" H 3661 3622 60  0000 C CNN
+F 1 "MX-1U" H 3661 3547 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 3550 3380 60  0001 C CNN
+F 3 "" H 3550 3380 60  0001 C CNN
+	1    3575 3405
+	1    0    0    -1  
+$EndComp
+Connection ~ 6500 2700
+$Comp
+L mx:MX-1U MX57
+U 1 1 5DF4EC32
+P 4055 3405
+F 0 "MX57" H 4141 3622 60  0000 C CNN
+F 1 "MX-1U" H 4141 3547 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 4030 3380 60  0001 C CNN
+F 3 "" H 4030 3380 60  0001 C CNN
+	1    4055 3405
+	1    0    0    -1  
+$EndComp
+Connection ~ 5140 2900
+Wire Wire Line
+	4080 3530 3600 3530
+Connection ~ 6985 2700
+$Comp
+L Device:R R66
+U 1 1 5DF4EC43
+P 8570 3580
+F 0 "R66" H 8640 3626 50  0000 L CNN
+F 1 "R" H 8640 3535 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 8500 3580 50  0001 C CNN
+F 3 "~" H 8570 3580 50  0001 C CNN
+	1    8570 3580
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6010 3530 5525 3530
+$Comp
+L Diode:1N4148 D48
+U 1 1 5DF4EC52
+P 7810 2900
+F 0 "D48" V 7856 2821 50  0000 R CNN
+F 1 "1N4148" V 7765 2821 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7810 2725 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7810 2900 50  0001 C CNN
+	1    7810 2900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L mx:MX-1U MX61
+U 1 1 5DF4EC62
+P 5985 3405
+F 0 "MX61" H 6071 3622 60  0000 C CNN
+F 1 "MX-1U" H 6071 3547 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 5960 3380 60  0001 C CNN
+F 3 "" H 5960 3380 60  0001 C CNN
+	1    5985 3405
+	1    0    0    -1  
+$EndComp
+Connection ~ 5365 3050
+$Comp
+L mx:MX-1U MX51
+U 1 1 5DF4EC73
+P 1175 3405
+F 0 "MX51" H 1261 3622 60  0000 C CNN
+F 1 "MX-1U" H 1261 3547 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 1150 3380 60  0001 C CNN
+F 3 "" H 1150 3380 60  0001 C CNN
+	1    1175 3405
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D45
+U 1 1 5DF4EC81
+P 6340 2900
+F 0 "D45" V 6386 2821 50  0000 R CNN
+F 1 "1N4148" V 6295 2821 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6340 2725 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6340 2900 50  0001 C CNN
+	1    6340 2900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4510 2750 4400 2750
+$Comp
+L Device:R R40
+U 1 1 5DF4EC90
+P 4180 2750
+F 0 "R40" H 4250 2796 50  0000 L CNN
+F 1 "R" H 4250 2705 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4110 2750 50  0001 C CNN
+F 3 "~" H 4180 2750 50  0001 C CNN
+	1    4180 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5625 3730 6110 3730
+$Comp
+L mx:MX-1U MX66
+U 1 1 5DF4ECA1
+P 8445 3405
+F 0 "MX66" H 8531 3622 60  0000 C CNN
+F 1 "MX-1U" H 8531 3547 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 8420 3380 60  0001 C CNN
+F 3 "" H 8420 3380 60  0001 C CNN
+	1    8445 3405
+	1    0    0    -1  
+$EndComp
+Connection ~ 7085 2900
+Wire Wire Line
+	1780 3730 2260 3730
+Wire Wire Line
+	2260 2900 2740 2900
+$Comp
+L Device:R R57
+U 1 1 5DF4ECB2
+P 4180 3580
+F 0 "R57" H 4250 3626 50  0000 L CNN
+F 1 "R" H 4250 3535 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4110 3580 50  0001 C CNN
+F 3 "~" H 4180 3580 50  0001 C CNN
+	1    4180 3580
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6340 3880 6825 3880
+$Comp
+L Diode:1N4148 D60
+U 1 1 5DF4ECC2
+P 5365 3730
+F 0 "D60" V 5411 3651 50  0000 R CNN
+F 1 "1N4148" V 5320 3651 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5365 3555 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5365 3730 50  0001 C CNN
+	1    5365 3730
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4660 3730 5140 3730
+Wire Wire Line
+	5140 3730 5625 3730
+$Comp
+L mx:MX-1U MX48
+U 1 1 5DF4ECD4
+P 7945 2575
+F 0 "MX48" H 8031 2792 60  0000 C CNN
+F 1 "MX-1U" H 8031 2717 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 7920 2550 60  0001 C CNN
+F 3 "" H 7920 2550 60  0001 C CNN
+	1    7945 2575
+	1    0    0    -1  
+$EndComp
+Connection ~ 5625 3730
+Wire Wire Line
+	3700 3730 4180 3730
+Wire Wire Line
+	1300 3730 1780 3730
+$Comp
+L Device:R R58
+U 1 1 5DF4ECE5
+P 4660 3580
+F 0 "R58" H 4730 3626 50  0000 L CNN
+F 1 "R" H 4730 3535 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4590 3580 50  0001 C CNN
+F 3 "~" H 4660 3580 50  0001 C CNN
+	1    4660 3580
+	1    0    0    -1  
+$EndComp
+Connection ~ 1780 2900
+Wire Wire Line
+	1630 3580 1520 3580
+Connection ~ 8310 3050
+$Comp
+L Diode:1N4148 D59
+U 1 1 5DF4ECF6
+P 4880 3730
+F 0 "D59" V 4926 3651 50  0000 R CNN
+F 1 "1N4148" V 4835 3651 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4880 3555 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4880 3730 50  0001 C CNN
+	1    4880 3730
+	0    -1   -1   0   
+$EndComp
+Connection ~ 6010 3530
+Connection ~ 2260 3730
+Wire Wire Line
+	2640 3530 2160 3530
+Connection ~ 1680 2700
+Connection ~ 3120 3530
+$Comp
+L mx:MX-1U MX44
+U 1 1 5DF4ED0B
+P 5985 2575
+F 0 "MX44" H 6071 2792 60  0000 C CNN
+F 1 "MX-1U" H 6071 2717 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 5960 2550 60  0001 C CNN
+F 3 "" H 5960 2550 60  0001 C CNN
+	1    5985 2575
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D57
+U 1 1 5DF4ED19
+P 3920 3730
+F 0 "D57" V 3966 3651 50  0000 R CNN
+F 1 "1N4148" V 3875 3651 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3920 3555 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 3920 3730 50  0001 C CNN
+	1    3920 3730
+	0    -1   -1   0   
+$EndComp
+$Comp
+L mx:MX-1U MX59
+U 1 1 5DF4ED29
+P 5015 3405
+F 0 "MX59" H 5101 3622 60  0000 C CNN
+F 1 "MX-1U" H 5101 3547 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 4990 3380 60  0001 C CNN
+F 3 "" H 4990 3380 60  0001 C CNN
+	1    5015 3405
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8070 3730 8570 3730
+$Comp
+L Diode:1N4148 D47
+U 1 1 5DF4ED38
+P 7315 2900
+F 0 "D47" V 7361 2821 50  0000 R CNN
+F 1 "1N4148" V 7270 2821 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7315 2725 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7315 2900 50  0001 C CNN
+	1    7315 2900
+	0    -1   -1   0   
+$EndComp
+Connection ~ 8310 3880
+Wire Wire Line
+	1150 3580 1040 3580
+$Comp
+L Device:R R65
+U 1 1 5DF4ED48
+P 8070 3580
+F 0 "R65" H 8140 3626 50  0000 L CNN
+F 1 "R" H 8140 3535 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 8000 3580 50  0001 C CNN
+F 3 "~" H 8070 3580 50  0001 C CNN
+	1    8070 3580
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8970 3530 8470 3530
+Wire Wire Line
+	5850 3880 6340 3880
+Wire Wire Line
+	3220 3730 3700 3730
+$Comp
+L Device:R R39
+U 1 1 5DF4ED59
+P 3700 2750
+F 0 "R39" H 3770 2796 50  0000 L CNN
+F 1 "R" H 3770 2705 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3630 2750 50  0001 C CNN
+F 3 "~" H 3700 2750 50  0001 C CNN
+	1    3700 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R44
+U 1 1 5DF4ED67
+P 6110 2750
+F 0 "R44" H 6180 2796 50  0000 L CNN
+F 1 "R" H 6180 2705 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 6040 2750 50  0001 C CNN
+F 3 "~" H 6110 2750 50  0001 C CNN
+	1    6110 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D37
+U 1 1 5DF4ED75
+P 2480 2900
+F 0 "D37" V 2526 2821 50  0000 R CNN
+F 1 "1N4148" V 2435 2821 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2480 2725 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 2480 2900 50  0001 C CNN
+	1    2480 2900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8310 3050 8810 3050
+Connection ~ 7575 3730
+Connection ~ 4880 3880
+Connection ~ 1520 3050
+Connection ~ 8470 3530
+Wire Wire Line
+	7315 3050 7810 3050
+Connection ~ 4080 2700
+$Comp
+L Diode:1N4148 D67
+U 1 1 5DF4ED8A
+P 8810 3730
+F 0 "D67" V 8856 3651 50  0000 R CNN
+F 1 "1N4148" V 8765 3651 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 8810 3555 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8810 3730 50  0001 C CNN
+	1    8810 3730
+	0    -1   -1   0   
+$EndComp
+Connection ~ 3440 3050
+$Comp
+L mx:MX-1U MX49
+U 1 1 5DF4ED9B
+P 8445 2575
+F 0 "MX49" H 8531 2792 60  0000 C CNN
+F 1 "MX-1U" H 8531 2717 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 8420 2550 60  0001 C CNN
+F 3 "" H 8420 2550 60  0001 C CNN
+	1    8445 2575
+	1    0    0    -1  
+$EndComp
+Connection ~ 7810 3050
+Wire Wire Line
+	3070 2750 2960 2750
+Wire Wire Line
+	2480 3050 2960 3050
+$Comp
+L mx:MX-1U MX50
+U 1 1 5DF4EDAE
+P 8945 2575
+F 0 "MX50" H 9031 2792 60  0000 C CNN
+F 1 "MX-1U" H 9031 2717 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 8920 2550 60  0001 C CNN
+F 3 "" H 8920 2550 60  0001 C CNN
+	1    8945 2575
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 3050 4880 3050
+$Comp
+L mx:MX-1U MX43
+U 1 1 5DF4EDBF
+P 5500 2575
+F 0 "MX43" H 5586 2792 60  0000 C CNN
+F 1 "MX-1U" H 5586 2717 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 5475 2550 60  0001 C CNN
+F 3 "" H 5475 2550 60  0001 C CNN
+	1    5500 2575
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R64
+U 1 1 5DF4EDCD
+P 7575 3580
+F 0 "R64" H 7645 3626 50  0000 L CNN
+F 1 "R" H 7645 3535 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 7505 3580 50  0001 C CNN
+F 3 "~" H 7575 3580 50  0001 C CNN
+	1    7575 3580
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2960 3880 3440 3880
+Wire Wire Line
+	7970 3530 7475 3530
+$Comp
+L Diode:1N4148 D43
+U 1 1 5DF4EDDD
+P 5365 2900
+F 0 "D43" V 5411 2821 50  0000 R CNN
+F 1 "1N4148" V 5320 2821 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5365 2725 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5365 2900 50  0001 C CNN
+	1    5365 2900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4560 3530 4080 3530
+Connection ~ 6500 3530
+Connection ~ 1520 3880
+Wire Wire Line
+	1780 2900 2260 2900
+Wire Wire Line
+	6600 3730 7085 3730
+Connection ~ 2000 3880
+Wire Wire Line
+	7920 2750 7810 2750
+Wire Wire Line
+	6450 3580 6340 3580
+$Comp
+L Diode:1N4148 D58
+U 1 1 5DF4EDF3
+P 4400 3730
+F 0 "D58" V 4446 3651 50  0000 R CNN
+F 1 "1N4148" V 4355 3651 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4400 3555 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4400 3730 50  0001 C CNN
+	1    4400 3730
+	0    -1   -1   0   
+$EndComp
+Connection ~ 4560 3530
+Wire Wire Line
+	7920 3580 7810 3580
+Wire Wire Line
+	8920 3580 8810 3580
+Wire Wire Line
+	4400 3880 4880 3880
+$Comp
+L Device:R R59
+U 1 1 5DF4EE05
+P 5140 3580
+F 0 "R59" H 5210 3626 50  0000 L CNN
+F 1 "R" H 5210 3535 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5070 3580 50  0001 C CNN
+F 3 "~" H 5140 3580 50  0001 C CNN
+	1    5140 3580
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8920 2750 8810 2750
+Connection ~ 7475 3530
+$Comp
+L mx:MX-1U MX37
+U 1 1 5DF4EE17
+P 2615 2575
+F 0 "MX37" H 2701 2792 60  0000 C CNN
+F 1 "MX-1U" H 2701 2717 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 2590 2550 60  0001 C CNN
+F 3 "" H 2590 2550 60  0001 C CNN
+	1    2615 2575
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7315 3880 7810 3880
+$Comp
+L Diode:1N4148 D44
+U 1 1 5DF4EE26
+P 5850 2900
+F 0 "D44" V 5896 2821 50  0000 R CNN
+F 1 "1N4148" V 5805 2821 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5850 2725 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5850 2900 50  0001 C CNN
+	1    5850 2900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4880 3880 5365 3880
+$Comp
+L mx:MX-1U MX58
+U 1 1 5DF4EE37
+P 4535 3405
+F 0 "MX58" H 4621 3622 60  0000 C CNN
+F 1 "MX-1U" H 4621 3547 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 4510 3380 60  0001 C CNN
+F 3 "" H 4510 3380 60  0001 C CNN
+	1    4535 3405
+	1    0    0    -1  
+$EndComp
+Connection ~ 7315 3880
+Wire Wire Line
+	4990 2750 4880 2750
+Wire Wire Line
+	7575 3730 8070 3730
+Wire Wire Line
+	3220 2900 3700 2900
+Wire Wire Line
+	6600 2900 7085 2900
+Connection ~ 4400 3880
+Connection ~ 2000 3050
+$Comp
+L mx:MX-1U MX41
+U 1 1 5DF4EE4E
+P 4535 2575
+F 0 "MX41" H 4621 2792 60  0000 C CNN
+F 1 "MX-1U" H 4621 2717 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 4510 2550 60  0001 C CNN
+F 3 "" H 4510 2550 60  0001 C CNN
+	1    4535 2575
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D36
+U 1 1 5DF4EE5C
+P 2000 2900
+F 0 "D36" V 2046 2821 50  0000 R CNN
+F 1 "1N4148" V 1955 2821 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2000 2725 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 2000 2900 50  0001 C CNN
+	1    2000 2900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L mx:MX-1U MX42
+U 1 1 5DF4EE6C
+P 5015 2575
+F 0 "MX42" H 5101 2792 60  0000 C CNN
+F 1 "MX-1U" H 5101 2717 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 4990 2550 60  0001 C CNN
+F 3 "" H 4990 2550 60  0001 C CNN
+	1    5015 2575
+	1    0    0    -1  
+$EndComp
+Connection ~ 4180 3730
+Wire Wire Line
+	4080 2700 3600 2700
+Connection ~ 3600 3530
+$Comp
+L Device:R R52
+U 1 1 5DF4EE7D
+P 1780 3580
+F 0 "R52" H 1850 3626 50  0000 L CNN
+F 1 "R" H 1850 3535 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 1710 3580 50  0001 C CNN
+F 3 "~" H 1780 3580 50  0001 C CNN
+	1    1780 3580
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8070 2900 8570 2900
+$Comp
+L Device:R R42
+U 1 1 5DF4EE8C
+P 5140 2750
+F 0 "R42" H 5210 2796 50  0000 L CNN
+F 1 "R" H 5210 2705 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5070 2750 50  0001 C CNN
+F 3 "~" H 5140 2750 50  0001 C CNN
+	1    5140 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D50
+U 1 1 5DF4EE9A
+P 8810 2900
+F 0 "D50" V 8856 2821 50  0000 R CNN
+F 1 "1N4148" V 8765 2821 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 8810 2725 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8810 2900 50  0001 C CNN
+	1    8810 2900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4030 2750 3920 2750
+Wire Wire Line
+	3550 3580 3440 3580
+$Comp
+L Diode:1N4148 D52
+U 1 1 5DF4EEAA
+P 1520 3730
+F 0 "D52" V 1566 3651 50  0000 R CNN
+F 1 "1N4148" V 1475 3651 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 1520 3555 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 1520 3730 50  0001 C CNN
+	1    1520 3730
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6935 2750 6825 2750
+Wire Wire Line
+	5365 3050 5850 3050
+$Comp
+L mx:MX-1U MX65
+U 1 1 5DF4EEBC
+P 7945 3405
+F 0 "MX65" H 8031 3622 60  0000 C CNN
+F 1 "MX-1U" H 8031 3547 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 7920 3380 60  0001 C CNN
+F 3 "" H 7920 3380 60  0001 C CNN
+	1    7945 3405
+	1    0    0    -1  
+$EndComp
+Connection ~ 3920 3880
+$Comp
+L mx:MX-1U MX34
+U 1 1 5DF4EECD
+P 1175 2575
+F 0 "MX34" H 1261 2792 60  0000 C CNN
+F 1 "MX-1U" H 1261 2717 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 1150 2550 60  0001 C CNN
+F 3 "" H 1150 2550 60  0001 C CNN
+	1    1175 2575
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D63
+U 1 1 5DF4EEDB
+P 6825 3730
+F 0 "D63" V 6871 3651 50  0000 R CNN
+F 1 "1N4148" V 6780 3651 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6825 3555 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6825 3730 50  0001 C CNN
+	1    6825 3730
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6985 3530 6500 3530
+Wire Wire Line
+	8420 3580 8310 3580
+$Comp
+L Diode:1N4148 D34
+U 1 1 5DF4EEEB
+P 1040 2900
+F 0 "D34" V 1086 2821 50  0000 R CNN
+F 1 "1N4148" V 995 2821 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 1040 2725 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 1040 2900 50  0001 C CNN
+	1    1040 2900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L mx:MX-1U MX52
+U 1 1 5DF4EEFB
+P 1655 3405
+F 0 "MX52" H 1741 3622 60  0000 C CNN
+F 1 "MX-1U" H 1741 3547 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 1630 3380 60  0001 C CNN
+F 3 "" H 1630 3380 60  0001 C CNN
+	1    1655 3405
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5960 2750 5850 2750
+$Comp
+L Device:R R61
+U 1 1 5DF4EF0A
+P 6110 3580
+F 0 "R61" H 6180 3626 50  0000 L CNN
+F 1 "R" H 6180 3535 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 6040 3580 50  0001 C CNN
+F 3 "~" H 6110 3580 50  0001 C CNN
+	1    6110 3580
+	1    0    0    -1  
+$EndComp
+$Comp
+L mx:MX-1U MX55
+U 1 1 5DF4EF1A
+P 3095 3405
+F 0 "MX55" H 3181 3622 60  0000 C CNN
+F 1 "MX-1U" H 3181 3547 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 3070 3380 60  0001 C CNN
+F 3 "" H 3070 3380 60  0001 C CNN
+	1    3095 3405
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2110 2750 2000 2750
+Wire Wire Line
+	3600 2700 3120 2700
+Connection ~ 3700 2900
+Connection ~ 4660 2900
+Wire Wire Line
+	7085 2900 7575 2900
+$Comp
+L Diode:1N4148 D54
+U 1 1 5DF4EF2D
+P 2480 3730
+F 0 "D54" V 2526 3651 50  0000 R CNN
+F 1 "1N4148" V 2435 3651 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2480 3555 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 2480 3730 50  0001 C CNN
+	1    2480 3730
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D53
+U 1 1 5DF4EF3B
+P 2000 3730
+F 0 "D53" V 2046 3651 50  0000 R CNN
+F 1 "1N4148" V 1955 3651 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2000 3555 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 2000 3730 50  0001 C CNN
+	1    2000 3730
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2740 3730 3220 3730
+Connection ~ 2160 3530
+Connection ~ 3700 3730
+Wire Wire Line
+	1680 2700 1200 2700
+Wire Wire Line
+	6985 2700 6500 2700
+Wire Wire Line
+	5365 3880 5850 3880
+Wire Wire Line
+	5960 3580 5850 3580
+Connection ~ 8070 3730
+$Comp
+L Device:R R47
+U 1 1 5DF4EF51
+P 7575 2750
+F 0 "R47" H 7645 2796 50  0000 L CNN
+F 1 "R" H 7645 2705 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 7505 2750 50  0001 C CNN
+F 3 "~" H 7575 2750 50  0001 C CNN
+	1    7575 2750
+	1    0    0    -1  
+$EndComp
+Connection ~ 4560 2700
+Wire Wire Line
+	2960 3050 3440 3050
+Connection ~ 6340 3050
+$Comp
+L Device:R R49
+U 1 1 5DF4EF63
+P 8570 2750
+F 0 "R49" H 8640 2796 50  0000 L CNN
+F 1 "R" H 8640 2705 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 8500 2750 50  0001 C CNN
+F 3 "~" H 8570 2750 50  0001 C CNN
+	1    8570 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L mx:MX-1U MX62
+U 1 1 5DF4EF73
+P 6475 3405
+F 0 "MX62" H 6561 3622 60  0000 C CNN
+F 1 "MX-1U" H 6561 3547 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 6450 3380 60  0001 C CNN
+F 3 "" H 6450 3380 60  0001 C CNN
+	1    6475 3405
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6010 2700 5525 2700
+Wire Wire Line
+	1300 2900 1780 2900
+$Comp
+L Device:R R41
+U 1 1 5DF4EF83
+P 4660 2750
+F 0 "R41" H 4730 2796 50  0000 L CNN
+F 1 "R" H 4730 2705 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4590 2750 50  0001 C CNN
+F 3 "~" H 4660 2750 50  0001 C CNN
+	1    4660 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R45
+U 1 1 5DF4EF91
+P 6600 2750
+F 0 "R45" H 6670 2796 50  0000 L CNN
+F 1 "R" H 6670 2705 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 6530 2750 50  0001 C CNN
+F 3 "~" H 6600 2750 50  0001 C CNN
+	1    6600 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4990 3580 4880 3580
+$Comp
+L Diode:1N4148 D38
+U 1 1 5DF4EFA0
+P 2960 2900
+F 0 "D38" V 3006 2821 50  0000 R CNN
+F 1 "1N4148" V 2915 2821 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2960 2725 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 2960 2900 50  0001 C CNN
+	1    2960 2900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6500 2700 6010 2700
+$Comp
+L mx:MX-1U MX38
+U 1 1 5DF4EFB1
+P 3095 2575
+F 0 "MX38" H 3181 2792 60  0000 C CNN
+F 1 "MX-1U" H 3181 2717 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 3070 2550 60  0001 C CNN
+F 3 "" H 3070 2550 60  0001 C CNN
+	1    3095 2575
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R34
+U 1 1 5DF4EFBF
+P 1300 2750
+F 0 "R34" H 1370 2796 50  0000 L CNN
+F 1 "R" H 1370 2705 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 1230 2750 50  0001 C CNN
+F 3 "~" H 1300 2750 50  0001 C CNN
+	1    1300 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5040 3530 4560 3530
+Connection ~ 5525 3530
+$Comp
+L mx:MX-1U MX36
+U 1 1 5DF4EFD1
+P 2135 2575
+F 0 "MX36" H 2221 2792 60  0000 C CNN
+F 1 "MX-1U" H 2221 2717 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 2110 2550 60  0001 C CNN
+F 3 "" H 2110 2550 60  0001 C CNN
+	1    2135 2575
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3440 3050 3920 3050
+Wire Wire Line
+	3070 3580 2960 3580
+Wire Wire Line
+	2480 3880 2960 3880
+Connection ~ 4660 3730
+Connection ~ 6110 3730
+$Comp
+L Diode:1N4148 D41
+U 1 1 5DF4EFE4
+P 4400 2900
+F 0 "D41" V 4446 2821 50  0000 R CNN
+F 1 "1N4148" V 4355 2821 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4400 2725 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4400 2900 50  0001 C CNN
+	1    4400 2900
+	0    -1   -1   0   
+$EndComp
+Connection ~ 2960 3880
+$Comp
+L Device:R R35
+U 1 1 5DF4EFF3
+P 1780 2750
+F 0 "R35" H 1850 2796 50  0000 L CNN
+F 1 "R" H 1850 2705 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 1710 2750 50  0001 C CNN
+F 3 "~" H 1780 2750 50  0001 C CNN
+	1    1780 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 3050 2480 3050
+Connection ~ 7970 2700
+$Comp
+L Device:R R82
+U 1 1 5DF8E52E
+P 8070 4410
+F 0 "R82" H 8140 4456 50  0000 L CNN
+F 1 "R" H 8140 4365 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 8000 4410 50  0001 C CNN
+F 3 "~" H 8070 4410 50  0001 C CNN
+	1    8070 4410
+	1    0    0    -1  
+$EndComp
+Connection ~ 2640 4360
+$Comp
+L mx:MX-1U MX91
+U 1 1 5DF8E53F
+P 4055 5065
+F 0 "MX91" H 4141 5282 60  0000 C CNN
+F 1 "MX-1U" H 4141 5207 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 4030 5040 60  0001 C CNN
+F 3 "" H 4030 5040 60  0001 C CNN
+	1    4055 5065
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4080 5190 3600 5190
+Connection ~ 4400 4710
+Wire Wire Line
+	1300 4560 1780 4560
+$Comp
+L Device:R R101
+U 1 1 5DF8E550
+P 9070 5240
+F 0 "R101" H 9140 5286 50  0000 L CNN
+F 1 "R" H 9140 5195 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 9000 5240 50  0001 C CNN
+F 3 "~" H 9070 5240 50  0001 C CNN
+	1    9070 5240
+	1    0    0    -1  
+$EndComp
+Connection ~ 6340 5540
+Connection ~ 3920 4710
+Wire Wire Line
+	1520 5540 2000 5540
+Connection ~ 5850 5540
+$Comp
+L mx:MX-1U MX70
+U 1 1 5DF8E564
+P 2135 4235
+F 0 "MX70" H 2221 4452 60  0000 C CNN
+F 1 "MX-1U" H 2221 4377 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 2110 4210 60  0001 C CNN
+F 3 "" H 2110 4210 60  0001 C CNN
+	1    2135 4235
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3440 4710 3920 4710
+Connection ~ 4660 5390
+$Comp
+L Diode:1N4148 D97
+U 1 1 5DF8E574
+P 6825 5390
+F 0 "D97" V 6871 5311 50  0000 R CNN
+F 1 "1N4148" V 6780 5311 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6825 5215 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6825 5390 50  0001 C CNN
+	1    6825 5390
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6985 5190 6500 5190
+Wire Wire Line
+	7315 4710 7810 4710
+Connection ~ 4080 4360
+$Comp
+L mx:MX-1U MX78
+U 1 1 5DF8E587
+P 5985 4235
+F 0 "MX78" H 6071 4452 60  0000 C CNN
+F 1 "MX-1U" H 6071 4377 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 5960 4210 60  0001 C CNN
+F 3 "" H 5960 4210 60  0001 C CNN
+	1    5985 4235
+	1    0    0    -1  
+$EndComp
+Connection ~ 5140 4560
+$Comp
+L Diode:1N4148 D76
+U 1 1 5DF8E596
+P 4880 4560
+F 0 "D76" V 4926 4481 50  0000 R CNN
+F 1 "1N4148" V 4835 4481 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4880 4385 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4880 4560 50  0001 C CNN
+	1    4880 4560
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4030 4410 3920 4410
+$Comp
+L mx:MX-1U MX96
+U 1 1 5DF8E5A7
+P 6475 5065
+F 0 "MX96" H 6561 5282 60  0000 C CNN
+F 1 "MX-1U" H 6561 5207 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 6450 5040 60  0001 C CNN
+F 3 "" H 6450 5040 60  0001 C CNN
+	1    6475 5065
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R75
+U 1 1 5DF8E5B5
+P 4660 4410
+F 0 "R75" H 4730 4456 50  0000 L CNN
+F 1 "R" H 4730 4365 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4590 4410 50  0001 C CNN
+F 3 "~" H 4660 4410 50  0001 C CNN
+	1    4660 4410
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8070 4560 8570 4560
+$Comp
+L Diode:1N4148 D98
+U 1 1 5DF8E5C4
+P 7315 5390
+F 0 "D98" V 7361 5311 50  0000 R CNN
+F 1 "1N4148" V 7270 5311 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7315 5215 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7315 5390 50  0001 C CNN
+	1    7315 5390
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R96
+U 1 1 5DF8E5D2
+P 6600 5240
+F 0 "R96" H 6670 5286 50  0000 L CNN
+F 1 "R" H 6670 5195 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 6530 5240 50  0001 C CNN
+F 3 "~" H 6600 5240 50  0001 C CNN
+	1    6600 5240
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4880 4710 5365 4710
+Wire Wire Line
+	4660 4560 5140 4560
+Wire Wire Line
+	3120 5190 2640 5190
+Wire Wire Line
+	8970 4360 8470 4360
+$Comp
+L Device:R R74
+U 1 1 5DF8E5E4
+P 4180 4410
+F 0 "R74" H 4250 4456 50  0000 L CNN
+F 1 "R" H 4250 4365 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4110 4410 50  0001 C CNN
+F 3 "~" H 4180 4410 50  0001 C CNN
+	1    4180 4410
+	1    0    0    -1  
+$EndComp
+$Comp
+L mx:MX-1U MX100
+U 1 1 5DF8E5F4
+P 8445 5065
+F 0 "MX100" H 8531 5282 60  0000 C CNN
+F 1 "MX-1U" H 8531 5207 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 8420 5040 60  0001 C CNN
+F 3 "" H 8420 5040 60  0001 C CNN
+	1    8445 5065
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5040 4360 4560 4360
+Wire Wire Line
+	8570 4560 9070 4560
+Wire Wire Line
+	8420 5240 8310 5240
+$Comp
+L Diode:1N4148 D68
+U 1 1 5DF8E605
+P 1040 4560
+F 0 "D68" V 1086 4481 50  0000 R CNN
+F 1 "1N4148" V 995 4481 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 1040 4385 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 1040 4560 50  0001 C CNN
+	1    1040 4560
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D91
+U 1 1 5DF8E613
+P 3920 5390
+F 0 "D91" V 3966 5311 50  0000 R CNN
+F 1 "1N4148" V 3875 5311 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3920 5215 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 3920 5390 50  0001 C CNN
+	1    3920 5390
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8070 5390 8570 5390
+Connection ~ 8310 5540
+Wire Wire Line
+	5850 5540 6340 5540
+Wire Wire Line
+	2260 4560 2740 4560
+$Comp
+L mx:MX-1U MX76
+U 1 1 5DF8E627
+P 5015 4235
+F 0 "MX76" H 5101 4452 60  0000 C CNN
+F 1 "MX-1U" H 5101 4377 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 4990 4210 60  0001 C CNN
+F 3 "" H 4990 4210 60  0001 C CNN
+	1    5015 4235
+	1    0    0    -1  
+$EndComp
+Connection ~ 3600 5190
+Wire Wire Line
+	2960 5540 3440 5540
+Connection ~ 3120 4360
+$Comp
+L Diode:1N4148 D78
+U 1 1 5DF8E638
+P 5850 4560
+F 0 "D78" V 5896 4481 50  0000 R CNN
+F 1 "1N4148" V 5805 4481 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5850 4385 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5850 4560 50  0001 C CNN
+	1    5850 4560
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6600 5390 7085 5390
+Connection ~ 2000 5540
+Wire Wire Line
+	1630 4410 1520 4410
+Wire Wire Line
+	5625 5390 6110 5390
+Connection ~ 2160 4360
+Wire Wire Line
+	7920 4410 7810 4410
+Wire Wire Line
+	6450 5240 6340 5240
+$Comp
+L mx:MX-1U MX81
+U 1 1 5DF8E64F
+P 7450 4235
+F 0 "MX81" H 7536 4452 60  0000 C CNN
+F 1 "MX-1U" H 7536 4377 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 7425 4210 60  0001 C CNN
+F 3 "" H 7425 4210 60  0001 C CNN
+	1    7450 4235
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6110 5390 6600 5390
+Wire Wire Line
+	2000 5540 2480 5540
+$Comp
+L Device:R R97
+U 1 1 5DF8E65F
+P 7085 5240
+F 0 "R97" H 7155 5286 50  0000 L CNN
+F 1 "R" H 7155 5195 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 7015 5240 50  0001 C CNN
+F 3 "~" H 7085 5240 50  0001 C CNN
+	1    7085 5240
+	1    0    0    -1  
+$EndComp
+Connection ~ 4880 4710
+Wire Wire Line
+	7475 5190 6985 5190
+Connection ~ 2260 4560
+Wire Wire Line
+	7810 4710 8310 4710
+Wire Wire Line
+	8470 5190 7970 5190
+$Comp
+L mx:MX-1U MX94
+U 1 1 5DF8E674
+P 5500 5065
+F 0 "MX94" H 5586 5282 60  0000 C CNN
+F 1 "MX-1U" H 5586 5207 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 5475 5040 60  0001 C CNN
+F 3 "" H 5475 5040 60  0001 C CNN
+	1    5500 5065
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1780 5390 2260 5390
+$Comp
+L Diode:1N4148 D92
+U 1 1 5DF8E683
+P 4400 5390
+F 0 "D92" V 4446 5311 50  0000 R CNN
+F 1 "1N4148" V 4355 5311 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4400 5215 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4400 5390 50  0001 C CNN
+	1    4400 5390
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D85
+U 1 1 5DF8E691
+P 1040 5390
+F 0 "D85" V 1086 5311 50  0000 R CNN
+F 1 "1N4148" V 995 5311 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 1040 5215 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 1040 5390 50  0001 C CNN
+	1    1040 5390
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6825 5540 7315 5540
+$Comp
+L mx:MX-1U MX88
+U 1 1 5DF8E6A2
+P 2615 5065
+F 0 "MX88" H 2701 5282 60  0000 C CNN
+F 1 "MX-1U" H 2701 5207 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 2590 5040 60  0001 C CNN
+F 3 "" H 2590 5040 60  0001 C CNN
+	1    2615 5065
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D74
+U 1 1 5DF8E6B0
+P 3920 4560
+F 0 "D74" V 3966 4481 50  0000 R CNN
+F 1 "1N4148" V 3875 4481 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3920 4385 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 3920 4560 50  0001 C CNN
+	1    3920 4560
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2480 4710 2960 4710
+$Comp
+L mx:MX-1U MX84
+U 1 1 5DF8E6C2
+P 8945 4235
+F 0 "MX84" H 9031 4452 60  0000 C CNN
+F 1 "MX-1U" H 9031 4377 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 8920 4210 60  0001 C CNN
+F 3 "" H 8920 4210 60  0001 C CNN
+	1    8945 4235
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 5540 4880 5540
+$Comp
+L Device:R R93
+U 1 1 5DF8E6D1
+P 5140 5240
+F 0 "R93" H 5210 5286 50  0000 L CNN
+F 1 "R" H 5210 5195 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5070 5240 50  0001 C CNN
+F 3 "~" H 5140 5240 50  0001 C CNN
+	1    5140 5240
+	1    0    0    -1  
+$EndComp
+Connection ~ 6010 4360
+Wire Wire Line
+	3600 5190 3120 5190
+$Comp
+L mx:MX-1U MX101
+U 1 1 5DF8E6E3
+P 8945 5065
+F 0 "MX101" H 9031 5282 60  0000 C CNN
+F 1 "MX-1U" H 9031 5207 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 8920 5040 60  0001 C CNN
+F 3 "" H 8920 5040 60  0001 C CNN
+	1    8945 5065
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6010 4360 5525 4360
+Connection ~ 3220 5390
+Wire Wire Line
+	1040 5540 1520 5540
+Wire Wire Line
+	4180 5390 4660 5390
+$Comp
+L Device:R R91
+U 1 1 5DF8E6F5
+P 4180 5240
+F 0 "R91" H 4250 5286 50  0000 L CNN
+F 1 "R" H 4250 5195 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4110 5240 50  0001 C CNN
+F 3 "~" H 4180 5240 50  0001 C CNN
+	1    4180 5240
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D94
+U 1 1 5DF8E703
+P 5365 5390
+F 0 "D94" V 5411 5311 50  0000 R CNN
+F 1 "1N4148" V 5320 5311 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5365 5215 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5365 5390 50  0001 C CNN
+	1    5365 5390
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R80
+U 1 1 5DF8E711
+P 7085 4410
+F 0 "R80" H 7155 4456 50  0000 L CNN
+F 1 "R" H 7155 4365 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 7015 4410 50  0001 C CNN
+F 3 "~" H 7085 4410 50  0001 C CNN
+	1    7085 4410
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D100
+U 1 1 5DF8E71F
+P 8310 5390
+F 0 "D100" V 8356 5311 50  0000 R CNN
+F 1 "1N4148" V 8265 5311 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 8310 5215 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8310 5390 50  0001 C CNN
+	1    8310 5390
+	0    -1   -1   0   
+$EndComp
+Connection ~ 6600 4560
+Wire Wire Line
+	8420 4410 8310 4410
+Wire Wire Line
+	2740 4560 3220 4560
+Wire Wire Line
+	6340 4710 6825 4710
+$Comp
+L Device:R R71
+U 1 1 5DF8E731
+P 2740 4410
+F 0 "R71" H 2810 4456 50  0000 L CNN
+F 1 "R" H 2810 4365 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 2670 4410 50  0001 C CNN
+F 3 "~" H 2740 4410 50  0001 C CNN
+	1    2740 4410
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R89
+U 1 1 5DF8E73F
+P 3220 5240
+F 0 "R89" H 3290 5286 50  0000 L CNN
+F 1 "R" H 3290 5195 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3150 5240 50  0001 C CNN
+F 3 "~" H 3220 5240 50  0001 C CNN
+	1    3220 5240
+	1    0    0    -1  
+$EndComp
+$Comp
+L mx:MX-1U MX93
+U 1 1 5DF8E74F
+P 5015 5065
+F 0 "MX93" H 5101 5282 60  0000 C CNN
+F 1 "MX-1U" H 5101 5207 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 4990 5040 60  0001 C CNN
+F 3 "" H 4990 5040 60  0001 C CNN
+	1    5015 5065
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D81
+U 1 1 5DF8E75D
+P 7315 4560
+F 0 "D81" V 7361 4481 50  0000 R CNN
+F 1 "1N4148" V 7270 4481 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7315 4385 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7315 4560 50  0001 C CNN
+	1    7315 4560
+	0    -1   -1   0   
+$EndComp
+$Comp
+L mx:MX-1U MX75
+U 1 1 5DF8E76D
+P 4535 4235
+F 0 "MX75" H 4621 4452 60  0000 C CNN
+F 1 "MX-1U" H 4621 4377 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 4510 4210 60  0001 C CNN
+F 3 "" H 4510 4210 60  0001 C CNN
+	1    4535 4235
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4180 4560 4660 4560
+Wire Wire Line
+	6985 4360 6500 4360
+Wire Wire Line
+	5365 5540 5850 5540
+Wire Wire Line
+	5960 5240 5850 5240
+Wire Wire Line
+	3920 4710 4400 4710
+Connection ~ 1780 5390
+Wire Wire Line
+	6600 4560 7085 4560
+Connection ~ 2000 4710
+$Comp
+L mx:MX-1U MX89
+U 1 1 5DF8E785
+P 3095 5065
+F 0 "MX89" H 3181 5282 60  0000 C CNN
+F 1 "MX-1U" H 3181 5207 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 3070 5040 60  0001 C CNN
+F 3 "" H 3070 5040 60  0001 C CNN
+	1    3095 5065
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7085 4560 7575 4560
+Connection ~ 3440 5540
+Connection ~ 5625 5390
+$Comp
+L Device:R R72
+U 1 1 5DF8E796
+P 3220 4410
+F 0 "R72" H 3290 4456 50  0000 L CNN
+F 1 "R" H 3290 4365 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3150 4410 50  0001 C CNN
+F 3 "~" H 3220 4410 50  0001 C CNN
+	1    3220 4410
+	1    0    0    -1  
+$EndComp
+Connection ~ 3220 4560
+Connection ~ 4560 5190
+Wire Wire Line
+	5140 5390 5625 5390
+Connection ~ 7085 5390
+Wire Wire Line
+	7970 5190 7475 5190
+$Comp
+L Device:R R98
+U 1 1 5DF8E7A9
+P 7575 5240
+F 0 "R98" H 7645 5286 50  0000 L CNN
+F 1 "R" H 7645 5195 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 7505 5240 50  0001 C CNN
+F 3 "~" H 7575 5240 50  0001 C CNN
+	1    7575 5240
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D77
+U 1 1 5DF8E7B7
+P 5365 4560
+F 0 "D77" V 5411 4481 50  0000 R CNN
+F 1 "1N4148" V 5320 4481 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5365 4385 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5365 4560 50  0001 C CNN
+	1    5365 4560
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6340 5540 6825 5540
+Wire Wire Line
+	4560 4360 4080 4360
+$Comp
+L mx:MX-1U MX90
+U 1 1 5DF8E7C9
+P 3575 5065
+F 0 "MX90" H 3661 5282 60  0000 C CNN
+F 1 "MX-1U" H 3661 5207 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 3550 5040 60  0001 C CNN
+F 3 "" H 3550 5040 60  0001 C CNN
+	1    3575 5065
+	1    0    0    -1  
+$EndComp
+Connection ~ 6500 4360
+Wire Wire Line
+	4660 5390 5140 5390
+$Comp
+L mx:MX-1U MX79
+U 1 1 5DF8E7DB
+P 6475 4235
+F 0 "MX79" H 6561 4452 60  0000 C CNN
+F 1 "MX-1U" H 6561 4377 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 6450 4210 60  0001 C CNN
+F 3 "" H 6450 4210 60  0001 C CNN
+	1    6475 4235
+	1    0    0    -1  
+$EndComp
+Connection ~ 6985 4360
+$Comp
+L Device:R R100
+U 1 1 5DF8E7EA
+P 8570 5240
+F 0 "R100" H 8640 5286 50  0000 L CNN
+F 1 "R" H 8640 5195 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 8500 5240 50  0001 C CNN
+F 3 "~" H 8570 5240 50  0001 C CNN
+	1    8570 5240
+	1    0    0    -1  
+$EndComp
+Connection ~ 8070 4560
+$Comp
+L Diode:1N4148 D99
+U 1 1 5DF8E7F9
+P 7810 5390
+F 0 "D99" V 7856 5311 50  0000 R CNN
+F 1 "1N4148" V 7765 5311 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7810 5215 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7810 5390 50  0001 C CNN
+	1    7810 5390
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8310 5540 8810 5540
+Wire Wire Line
+	3600 4360 3120 4360
+$Comp
+L Diode:1N4148 D101
+U 1 1 5DF8E809
+P 8810 5390
+F 0 "D101" V 8856 5311 50  0000 R CNN
+F 1 "1N4148" V 8765 5311 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 8810 5215 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8810 5390 50  0001 C CNN
+	1    8810 5390
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3070 4410 2960 4410
+Wire Wire Line
+	7315 5540 7810 5540
+Wire Wire Line
+	8570 5390 9070 5390
+Connection ~ 3600 4360
+Connection ~ 2160 5190
+Wire Wire Line
+	1150 5240 1040 5240
+Wire Wire Line
+	2260 5390 2740 5390
+Wire Wire Line
+	2590 5240 2480 5240
+$Comp
+L Diode:1N4148 D71
+U 1 1 5DF8E81F
+P 2480 4560
+F 0 "D71" V 2526 4481 50  0000 R CNN
+F 1 "1N4148" V 2435 4481 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2480 4385 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 2480 4560 50  0001 C CNN
+	1    2480 4560
+	0    -1   -1   0   
+$EndComp
+Connection ~ 2480 4710
+Wire Wire Line
+	5525 5190 5040 5190
+Wire Wire Line
+	6935 5240 6825 5240
+Wire Wire Line
+	7970 4360 7475 4360
+$Comp
+L Device:R R94
+U 1 1 5DF8E831
+P 5625 5240
+F 0 "R94" H 5695 5286 50  0000 L CNN
+F 1 "R" H 5695 5195 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5555 5240 50  0001 C CNN
+F 3 "~" H 5625 5240 50  0001 C CNN
+	1    5625 5240
+	1    0    0    -1  
+$EndComp
+Connection ~ 4660 4560
+Connection ~ 8470 4360
+Wire Wire Line
+	1520 4710 2000 4710
+Connection ~ 6825 5540
+$Comp
+L mx:MX-1U MX87
+U 1 1 5DF8E845
+P 2135 5065
+F 0 "MX87" H 2221 5282 60  0000 C CNN
+F 1 "MX-1U" H 2221 5207 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 2110 5040 60  0001 C CNN
+F 3 "" H 2110 5040 60  0001 C CNN
+	1    2135 5065
+	1    0    0    -1  
+$EndComp
+$Comp
+L mx:MX-1U MX80
+U 1 1 5DF8E855
+P 6960 4235
+F 0 "MX80" H 7046 4452 60  0000 C CNN
+F 1 "MX-1U" H 7046 4377 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 6935 4210 60  0001 C CNN
+F 3 "" H 6935 4210 60  0001 C CNN
+	1    6960 4235
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D96
+U 1 1 5DF8E863
+P 6340 5390
+F 0 "D96" V 6386 5311 50  0000 R CNN
+F 1 "1N4148" V 6295 5311 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6340 5215 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6340 5390 50  0001 C CNN
+	1    6340 5390
+	0    -1   -1   0   
+$EndComp
+Connection ~ 8570 4560
+Connection ~ 1680 5190
+Wire Wire Line
+	6500 4360 6010 4360
+$Comp
+L mx:MX-1U MX72
+U 1 1 5DF8E876
+P 3095 4235
+F 0 "MX72" H 3181 4452 60  0000 C CNN
+F 1 "MX-1U" H 3181 4377 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 3070 4210 60  0001 C CNN
+F 3 "" H 3070 4210 60  0001 C CNN
+	1    3095 4235
+	1    0    0    -1  
+$EndComp
+$Comp
+L mx:MX-1U MX86
+U 1 1 5DF8E886
+P 1655 5065
+F 0 "MX86" H 1741 5282 60  0000 C CNN
+F 1 "MX-1U" H 1741 5207 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 1630 5040 60  0001 C CNN
+F 3 "" H 1630 5040 60  0001 C CNN
+	1    1655 5065
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R95
+U 1 1 5DF8E894
+P 6110 5240
+F 0 "R95" H 6180 5286 50  0000 L CNN
+F 1 "R" H 6180 5195 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 6040 5240 50  0001 C CNN
+F 3 "~" H 6110 5240 50  0001 C CNN
+	1    6110 5240
+	1    0    0    -1  
+$EndComp
+Connection ~ 3700 4560
+Connection ~ 6110 4560
+Connection ~ 3700 5390
+Connection ~ 6600 5390
+Wire Wire Line
+	4560 5190 4080 5190
+Connection ~ 2480 5540
+Wire Wire Line
+	5040 5190 4560 5190
+$Comp
+L Diode:1N4148 D80
+U 1 1 5DF8E8A9
+P 6825 4560
+F 0 "D80" V 6871 4481 50  0000 R CNN
+F 1 "1N4148" V 6780 4481 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6825 4385 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6825 4560 50  0001 C CNN
+	1    6825 4560
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R84
+U 1 1 5DF8E8B7
+P 9070 4410
+F 0 "R84" H 9140 4456 50  0000 L CNN
+F 1 "R" H 9140 4365 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 9000 4410 50  0001 C CNN
+F 3 "~" H 9070 4410 50  0001 C CNN
+	1    9070 4410
+	1    0    0    -1  
+$EndComp
+Connection ~ 7970 5190
+Wire Wire Line
+	7810 5540 8310 5540
+Connection ~ 5850 4710
+Wire Wire Line
+	5525 4360 5040 4360
+Wire Wire Line
+	2110 4410 2000 4410
+Wire Wire Line
+	1150 4410 1040 4410
+Connection ~ 7575 5390
+Connection ~ 4880 5540
+Wire Wire Line
+	4880 5540 5365 5540
+Wire Wire Line
+	7425 5240 7315 5240
+$Comp
+L mx:MX-1U MX98
+U 1 1 5DF8E8D1
+P 7450 5065
+F 0 "MX98" H 7536 5282 60  0000 C CNN
+F 1 "MX-1U" H 7536 5207 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 7425 5040 60  0001 C CNN
+F 3 "" H 7425 5040 60  0001 C CNN
+	1    7450 5065
+	1    0    0    -1  
+$EndComp
+Connection ~ 5040 5190
+Wire Wire Line
+	7920 5240 7810 5240
+Wire Wire Line
+	8920 5240 8810 5240
+$Comp
+L Diode:1N4148 D84
+U 1 1 5DF8E8E2
+P 8810 4560
+F 0 "D84" V 8856 4481 50  0000 R CNN
+F 1 "1N4148" V 8765 4481 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 8810 4385 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8810 4560 50  0001 C CNN
+	1    8810 4560
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3550 5240 3440 5240
+$Comp
+L Device:R R99
+U 1 1 5DF8E8F1
+P 8070 5240
+F 0 "R99" H 8140 5286 50  0000 L CNN
+F 1 "R" H 8140 5195 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 8000 5240 50  0001 C CNN
+F 3 "~" H 8070 5240 50  0001 C CNN
+	1    8070 5240
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3220 5390 3700 5390
+Wire Wire Line
+	5960 4410 5850 4410
+Wire Wire Line
+	2740 5390 3220 5390
+Wire Wire Line
+	1680 4360 1200 4360
+Connection ~ 8070 5390
+Wire Wire Line
+	7575 5390 8070 5390
+Wire Wire Line
+	3220 4560 3700 4560
+Connection ~ 4400 5540
+$Comp
+L Diode:1N4148 D79
+U 1 1 5DF8E907
+P 6340 4560
+F 0 "D79" V 6386 4481 50  0000 R CNN
+F 1 "1N4148" V 6295 4481 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6340 4385 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6340 4560 50  0001 C CNN
+	1    6340 4560
+	0    -1   -1   0   
+$EndComp
+Connection ~ 7085 4560
+Wire Wire Line
+	4400 4710 4880 4710
+$Comp
+L mx:MX-1U MX77
+U 1 1 5DF8E919
+P 5500 4235
+F 0 "MX77" H 5586 4452 60  0000 C CNN
+F 1 "MX-1U" H 5586 4377 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 5475 4210 60  0001 C CNN
+F 3 "" H 5475 4210 60  0001 C CNN
+	1    5500 4235
+	1    0    0    -1  
+$EndComp
+Connection ~ 5140 5390
+Wire Wire Line
+	3700 4560 4180 4560
+Wire Wire Line
+	2590 4410 2480 4410
+Wire Wire Line
+	4510 5240 4400 5240
+Connection ~ 7810 5540
+Connection ~ 5365 5540
+Wire Wire Line
+	3440 5540 3920 5540
+Connection ~ 2640 5190
+$Comp
+L mx:MX-1U MX97
+U 1 1 5DF8E931
+P 6960 5065
+F 0 "MX97" H 7046 5282 60  0000 C CNN
+F 1 "MX-1U" H 7046 5207 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 6935 5040 60  0001 C CNN
+F 3 "" H 6935 5040 60  0001 C CNN
+	1    6960 5065
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D73
+U 1 1 5DF8E93F
+P 3440 4560
+F 0 "D73" V 3486 4481 50  0000 R CNN
+F 1 "1N4148" V 3395 4481 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3440 4385 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 3440 4560 50  0001 C CNN
+	1    3440 4560
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3070 5240 2960 5240
+Wire Wire Line
+	2480 5540 2960 5540
+Connection ~ 6110 5390
+Wire Wire Line
+	6825 4710 7315 4710
+$Comp
+L Device:R R68
+U 1 1 5DF8E951
+P 1300 4410
+F 0 "R68" H 1370 4456 50  0000 L CNN
+F 1 "R" H 1370 4365 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 1230 4410 50  0001 C CNN
+F 3 "~" H 1300 4410 50  0001 C CNN
+	1    1300 4410
+	1    0    0    -1  
+$EndComp
+Connection ~ 5525 5190
+Connection ~ 1780 4560
+Wire Wire Line
+	1630 5240 1520 5240
+Connection ~ 8310 4710
+$Comp
+L Diode:1N4148 D87
+U 1 1 5DF8E963
+P 2000 5390
+F 0 "D87" V 2046 5311 50  0000 R CNN
+F 1 "1N4148" V 1955 5311 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2000 5215 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 2000 5390 50  0001 C CNN
+	1    2000 5390
+	0    -1   -1   0   
+$EndComp
+Connection ~ 7970 4360
+$Comp
+L Device:R R86
+U 1 1 5DF8E973
+P 1780 5240
+F 0 "R86" H 1850 5286 50  0000 L CNN
+F 1 "R" H 1850 5195 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 1710 5240 50  0001 C CNN
+F 3 "~" H 1780 5240 50  0001 C CNN
+	1    1780 5240
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R76
+U 1 1 5DF8E981
+P 5140 4410
+F 0 "R76" H 5210 4456 50  0000 L CNN
+F 1 "R" H 5210 4365 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5070 4410 50  0001 C CNN
+F 3 "~" H 5140 4410 50  0001 C CNN
+	1    5140 4410
+	1    0    0    -1  
+$EndComp
+Connection ~ 3440 4710
+$Comp
+L mx:MX-1U MX83
+U 1 1 5DF8E992
+P 8445 4235
+F 0 "MX83" H 8531 4452 60  0000 C CNN
+F 1 "MX-1U" H 8531 4377 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 8420 4210 60  0001 C CNN
+F 3 "" H 8420 4210 60  0001 C CNN
+	1    8445 4235
+	1    0    0    -1  
+$EndComp
+Connection ~ 7810 4710
+Wire Wire Line
+	4990 5240 4880 5240
+Connection ~ 5365 4710
+Connection ~ 2960 5540
+Wire Wire Line
+	8310 4710 8810 4710
+$Comp
+L Diode:1N4148 D70
+U 1 1 5DF8E9A5
+P 2000 4560
+F 0 "D70" V 2046 4481 50  0000 R CNN
+F 1 "1N4148" V 1955 4481 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2000 4385 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 2000 4560 50  0001 C CNN
+	1    2000 4560
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4080 4360 3600 4360
+$Comp
+L Diode:1N4148 D88
+U 1 1 5DF8E9B4
+P 2480 5390
+F 0 "D88" V 2526 5311 50  0000 R CNN
+F 1 "1N4148" V 2435 5311 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2480 5215 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 2480 5390 50  0001 C CNN
+	1    2480 5390
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R69
+U 1 1 5DF8E9C2
+P 1780 4410
+F 0 "R69" H 1850 4456 50  0000 L CNN
+F 1 "R" H 1850 4365 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 1710 4410 50  0001 C CNN
+F 3 "~" H 1780 4410 50  0001 C CNN
+	1    1780 4410
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4510 4410 4400 4410
+Connection ~ 7475 5190
+$Comp
+L mx:MX-1U MX71
+U 1 1 5DF8E9D4
+P 2615 4235
+F 0 "MX71" H 2701 4452 60  0000 C CNN
+F 1 "MX-1U" H 2701 4377 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 2590 4210 60  0001 C CNN
+F 3 "" H 2590 4210 60  0001 C CNN
+	1    2615 4235
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 4710 2480 4710
+Wire Wire Line
+	8970 5190 8470 5190
+$Comp
+L mx:MX-1U MX95
+U 1 1 5DF8E9E6
+P 5985 5065
+F 0 "MX95" H 6071 5282 60  0000 C CNN
+F 1 "MX-1U" H 6071 5207 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 5960 5040 60  0001 C CNN
+F 3 "" H 5960 5040 60  0001 C CNN
+	1    5985 5065
+	1    0    0    -1  
+$EndComp
+$Comp
+L mx:MX-1U MX85
+U 1 1 5DF8E9F6
+P 1175 5065
+F 0 "MX85" H 1261 5282 60  0000 C CNN
+F 1 "MX-1U" H 1261 5207 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 1150 5040 60  0001 C CNN
+F 3 "" H 1150 5040 60  0001 C CNN
+	1    1175 5065
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D86
+U 1 1 5DF8EA04
+P 1520 5390
+F 0 "D86" V 1566 5311 50  0000 R CNN
+F 1 "1N4148" V 1475 5311 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 1520 5215 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 1520 5390 50  0001 C CNN
+	1    1520 5390
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6935 4410 6825 4410
+$Comp
+L Diode:1N4148 D93
+U 1 1 5DF8EA13
+P 4880 5390
+F 0 "D93" V 4926 5311 50  0000 R CNN
+F 1 "1N4148" V 4835 5311 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4880 5215 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4880 5390 50  0001 C CNN
+	1    4880 5390
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2640 5190 2160 5190
+$Comp
+L Device:R R79
+U 1 1 5DF8EA22
+P 6600 4410
+F 0 "R79" H 6670 4456 50  0000 L CNN
+F 1 "R" H 6670 4365 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 6530 4410 50  0001 C CNN
+F 3 "~" H 6600 4410 50  0001 C CNN
+	1    6600 4410
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D72
+U 1 1 5DF8EA30
+P 2960 4560
+F 0 "D72" V 3006 4481 50  0000 R CNN
+F 1 "1N4148" V 2915 4481 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2960 4385 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 2960 4560 50  0001 C CNN
+	1    2960 4560
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8920 4410 8810 4410
+$Comp
+L mx:MX-1U MX68
+U 1 1 5DF8EA41
+P 1175 4235
+F 0 "MX68" H 1261 4452 60  0000 C CNN
+F 1 "MX-1U" H 1261 4377 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 1150 4210 60  0001 C CNN
+F 3 "" H 1150 4210 60  0001 C CNN
+	1    1175 4235
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D75
+U 1 1 5DF8EA4F
+P 4400 4560
+F 0 "D75" V 4446 4481 50  0000 R CNN
+F 1 "1N4148" V 4355 4481 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4400 4385 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4400 4560 50  0001 C CNN
+	1    4400 4560
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D83
+U 1 1 5DF8EA5D
+P 8310 4560
+F 0 "D83" V 8356 4481 50  0000 R CNN
+F 1 "1N4148" V 8265 4481 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 8310 4385 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8310 4560 50  0001 C CNN
+	1    8310 4560
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2640 4360 2160 4360
+$Comp
+L Device:R R87
+U 1 1 5DF8EA6C
+P 2260 5240
+F 0 "R87" H 2330 5286 50  0000 L CNN
+F 1 "R" H 2330 5195 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 2190 5240 50  0001 C CNN
+F 3 "~" H 2260 5240 50  0001 C CNN
+	1    2260 5240
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2160 5190 1680 5190
+Connection ~ 1520 4710
+Connection ~ 8470 5190
+Wire Wire Line
+	7425 4410 7315 4410
+$Comp
+L Diode:1N4148 D95
+U 1 1 5DF8EA7E
+P 5850 5390
+F 0 "D95" V 5896 5311 50  0000 R CNN
+F 1 "1N4148" V 5805 5311 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5850 5215 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5850 5390 50  0001 C CNN
+	1    5850 5390
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8470 4360 7970 4360
+$Comp
+L Diode:1N4148 D82
+U 1 1 5DF8EA8D
+P 7810 4560
+F 0 "D82" V 7856 4481 50  0000 R CNN
+F 1 "1N4148" V 7765 4481 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7810 4385 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7810 4560 50  0001 C CNN
+	1    7810 4560
+	0    -1   -1   0   
+$EndComp
+$Comp
+L mx:MX-1U MX73
+U 1 1 5DF8EA9D
+P 3575 4235
+F 0 "MX73" H 3661 4452 60  0000 C CNN
+F 1 "MX-1U" H 3661 4377 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 3550 4210 60  0001 C CNN
+F 3 "" H 3550 4210 60  0001 C CNN
+	1    3575 4235
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2110 5240 2000 5240
+Connection ~ 6825 4710
+Connection ~ 6010 5190
+Connection ~ 2260 5390
+Connection ~ 1680 4360
+Connection ~ 3120 5190
+Wire Wire Line
+	4030 5240 3920 5240
+Connection ~ 6500 5190
+Connection ~ 1520 5540
+Wire Wire Line
+	1780 4560 2260 4560
+$Comp
+L mx:MX-1U MX82
+U 1 1 5DF8EAB7
+P 7945 4235
+F 0 "MX82" H 8031 4452 60  0000 C CNN
+F 1 "MX-1U" H 8031 4377 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 7920 4210 60  0001 C CNN
+F 3 "" H 7920 4210 60  0001 C CNN
+	1    7945 4235
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 5390 4180 5390
+Wire Wire Line
+	5140 4560 5625 4560
+Wire Wire Line
+	3120 4360 2640 4360
+Connection ~ 7575 4560
+Connection ~ 7475 4360
+Wire Wire Line
+	7575 4560 8070 4560
+$Comp
+L Device:R R85
+U 1 1 5DF8EACC
+P 1300 5240
+F 0 "R85" H 1370 5286 50  0000 L CNN
+F 1 "R" H 1370 5195 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 1230 5240 50  0001 C CNN
+F 3 "~" H 1300 5240 50  0001 C CNN
+	1    1300 5240
+	1    0    0    -1  
+$EndComp
+Connection ~ 2960 4710
+Connection ~ 8570 5390
+Wire Wire Line
+	5625 4560 6110 4560
+Wire Wire Line
+	5850 4710 6340 4710
+$Comp
+L Diode:1N4148 D89
+U 1 1 5DF8EADE
+P 2960 5390
+F 0 "D89" V 3006 5311 50  0000 R CNN
+F 1 "1N4148" V 2915 5311 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2960 5215 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 2960 5390 50  0001 C CNN
+	1    2960 5390
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6500 5190 6010 5190
+Connection ~ 3920 5540
+Wire Wire Line
+	2960 4710 3440 4710
+Wire Wire Line
+	5365 4710 5850 4710
+$Comp
+L mx:MX-1U MX99
+U 1 1 5DF8EAF3
+P 7945 5065
+F 0 "MX99" H 8031 5282 60  0000 C CNN
+F 1 "MX-1U" H 8031 5207 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 7920 5040 60  0001 C CNN
+F 3 "" H 7920 5040 60  0001 C CNN
+	1    7945 5065
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R81
+U 1 1 5DF8EB01
+P 7575 4410
+F 0 "R81" H 7645 4456 50  0000 L CNN
+F 1 "R" H 7645 4365 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 7505 4410 50  0001 C CNN
+F 3 "~" H 7575 4410 50  0001 C CNN
+	1    7575 4410
+	1    0    0    -1  
+$EndComp
+Connection ~ 4560 4360
+Wire Wire Line
+	6010 5190 5525 5190
+Wire Wire Line
+	6110 4560 6600 4560
+Wire Wire Line
+	2160 4360 1680 4360
+Wire Wire Line
+	6450 4410 6340 4410
+Wire Wire Line
+	1300 5390 1780 5390
+$Comp
+L Device:R R92
+U 1 1 5DF8EB15
+P 4660 5240
+F 0 "R92" H 4730 5286 50  0000 L CNN
+F 1 "R" H 4730 5195 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4590 5240 50  0001 C CNN
+F 3 "~" H 4660 5240 50  0001 C CNN
+	1    4660 5240
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 4410 3440 4410
+Connection ~ 2740 4560
+$Comp
+L Device:R R73
+U 1 1 5DF8EB25
+P 3700 4410
+F 0 "R73" H 3770 4456 50  0000 L CNN
+F 1 "R" H 3770 4365 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3630 4410 50  0001 C CNN
+F 3 "~" H 3700 4410 50  0001 C CNN
+	1    3700 4410
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R78
+U 1 1 5DF8EB33
+P 6110 4410
+F 0 "R78" H 6180 4456 50  0000 L CNN
+F 1 "R" H 6180 4365 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 6040 4410 50  0001 C CNN
+F 3 "~" H 6110 4410 50  0001 C CNN
+	1    6110 4410
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D69
+U 1 1 5DF8EB41
+P 1520 4560
+F 0 "D69" V 1566 4481 50  0000 R CNN
+F 1 "1N4148" V 1475 4481 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 1520 4385 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 1520 4560 50  0001 C CNN
+	1    1520 4560
+	0    -1   -1   0   
+$EndComp
+Connection ~ 5040 4360
+Connection ~ 4180 4560
+Wire Wire Line
+	3920 5540 4400 5540
+Wire Wire Line
+	7085 5390 7575 5390
+Connection ~ 5625 4560
+$Comp
+L Diode:1N4148 D90
+U 1 1 5DF8EB54
+P 3440 5390
+F 0 "D90" V 3486 5311 50  0000 R CNN
+F 1 "1N4148" V 3395 5311 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3440 5215 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 3440 5390 50  0001 C CNN
+	1    3440 5390
+	0    -1   -1   0   
+$EndComp
+$Comp
+L mx:MX-1U MX74
+U 1 1 5DF8EB64
+P 4055 4235
+F 0 "MX74" H 4141 4452 60  0000 C CNN
+F 1 "MX-1U" H 4141 4377 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 4030 4210 60  0001 C CNN
+F 3 "" H 4030 4210 60  0001 C CNN
+	1    4055 4235
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7475 4360 6985 4360
+Wire Wire Line
+	5475 4410 5365 4410
+Wire Wire Line
+	1680 5190 1200 5190
+Connection ~ 6340 4710
+$Comp
+L Device:R R83
+U 1 1 5DF8EB76
+P 8570 4410
+F 0 "R83" H 8640 4456 50  0000 L CNN
+F 1 "R" H 8640 4365 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 8500 4410 50  0001 C CNN
+F 3 "~" H 8570 4410 50  0001 C CNN
+	1    8570 4410
+	1    0    0    -1  
+$EndComp
+Connection ~ 6985 5190
+$Comp
+L Device:R R88
+U 1 1 5DF8EB85
+P 2740 5240
+F 0 "R88" H 2810 5286 50  0000 L CNN
+F 1 "R" H 2810 5195 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 2670 5240 50  0001 C CNN
+F 3 "~" H 2740 5240 50  0001 C CNN
+	1    2740 5240
+	1    0    0    -1  
+$EndComp
+$Comp
+L mx:MX-1U MX92
+U 1 1 5DF8EB95
+P 4535 5065
+F 0 "MX92" H 4621 5282 60  0000 C CNN
+F 1 "MX-1U" H 4621 5207 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 4510 5040 60  0001 C CNN
+F 3 "" H 4510 5040 60  0001 C CNN
+	1    4535 5065
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4990 4410 4880 4410
+$Comp
+L mx:MX-1U MX69
+U 1 1 5DF8EBA6
+P 1655 4235
+F 0 "MX69" H 1741 4452 60  0000 C CNN
+F 1 "MX-1U" H 1741 4377 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 1630 4210 60  0001 C CNN
+F 3 "" H 1630 4210 60  0001 C CNN
+	1    1655 4235
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1040 4710 1520 4710
+Connection ~ 5525 4360
+$Comp
+L Device:R R77
+U 1 1 5DF8EBB6
+P 5625 4410
+F 0 "R77" H 5695 4456 50  0000 L CNN
+F 1 "R" H 5695 4365 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5555 4410 50  0001 C CNN
+F 3 "~" H 5625 4410 50  0001 C CNN
+	1    5625 4410
+	1    0    0    -1  
+$EndComp
+Connection ~ 7315 4710
+$Comp
+L Device:R R70
+U 1 1 5DF8EBC5
+P 2260 4410
+F 0 "R70" H 2330 4456 50  0000 L CNN
+F 1 "R" H 2330 4365 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 2190 4410 50  0001 C CNN
+F 3 "~" H 2260 4410 50  0001 C CNN
+	1    2260 4410
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5475 5240 5365 5240
+Connection ~ 4180 5390
+Connection ~ 7315 5540
+Connection ~ 2740 5390
+$Comp
+L Device:R R90
+U 1 1 5DF8EBD7
+P 3700 5240
+F 0 "R90" H 3770 5286 50  0000 L CNN
+F 1 "R" H 3770 5195 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3630 5240 50  0001 C CNN
+F 3 "~" H 3700 5240 50  0001 C CNN
+	1    3700 5240
+	1    0    0    -1  
+$EndComp
+Connection ~ 4080 5190
+Wire Wire Line
+	7085 6235 7575 6235
+$Comp
+L Diode:1N4148 D107
+U 1 1 5E002A36
+P 3440 6235
+F 0 "D107" V 3486 6156 50  0000 R CNN
+F 1 "1N4148" V 3395 6156 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3440 6060 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 3440 6235 50  0001 C CNN
+	1    3440 6235
+	0    -1   -1   0   
+$EndComp
+Connection ~ 8310 6385
+Connection ~ 5040 6035
+$Comp
+L mx:MX-1U MX105
+U 1 1 5E002A48
+P 2615 5910
+F 0 "MX105" H 2701 6127 60  0000 C CNN
+F 1 "MX-1U" H 2701 6052 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 2590 5885 60  0001 C CNN
+F 3 "" H 2590 5885 60  0001 C CNN
+	1    2615 5910
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R106
+U 1 1 5E002A56
+P 3220 6085
+F 0 "R106" H 3290 6131 50  0000 L CNN
+F 1 "R" H 3290 6040 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3150 6085 50  0001 C CNN
+F 3 "~" H 3220 6085 50  0001 C CNN
+	1    3220 6085
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R117
+U 1 1 5E002A64
+P 8570 6085
+F 0 "R117" H 8640 6131 50  0000 L CNN
+F 1 "R" H 8640 6040 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 8500 6085 50  0001 C CNN
+F 3 "~" H 8570 6085 50  0001 C CNN
+	1    8570 6085
+	1    0    0    -1  
+$EndComp
+Connection ~ 5525 6035
+$Comp
+L Device:R R104
+U 1 1 5E002A73
+P 2260 6085
+F 0 "R104" H 2330 6131 50  0000 L CNN
+F 1 "R" H 2330 6040 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 2190 6085 50  0001 C CNN
+F 3 "~" H 2260 6085 50  0001 C CNN
+	1    2260 6085
+	1    0    0    -1  
+$EndComp
+Connection ~ 2260 6235
+Connection ~ 4180 6235
+Connection ~ 7575 6235
+Connection ~ 4400 6385
+Wire Wire Line
+	8310 6385 8810 6385
+Wire Wire Line
+	6985 6035 6500 6035
+Wire Wire Line
+	6935 6085 6825 6085
+Wire Wire Line
+	5850 6385 6340 6385
+Connection ~ 4560 6035
+Wire Wire Line
+	3120 6035 2640 6035
+Wire Wire Line
+	3550 6085 3440 6085
+Wire Wire Line
+	2740 6235 3220 6235
+Wire Wire Line
+	2480 6385 2960 6385
+Connection ~ 6110 6235
+$Comp
+L mx:MX-1U MX107
+U 1 1 5E002A91
+P 3575 5910
+F 0 "MX107" H 3661 6127 60  0000 C CNN
+F 1 "MX-1U" H 3661 6052 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 3550 5885 60  0001 C CNN
+F 3 "" H 3550 5885 60  0001 C CNN
+	1    3575 5910
+	1    0    0    -1  
+$EndComp
+Connection ~ 7810 6385
+Connection ~ 5365 6385
+Wire Wire Line
+	3440 6385 3920 6385
+Connection ~ 2640 6035
+Wire Wire Line
+	2000 6385 2480 6385
+$Comp
+L Device:R R114
+U 1 1 5E002AA4
+P 7085 6085
+F 0 "R114" H 7155 6131 50  0000 L CNN
+F 1 "R" H 7155 6040 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 7015 6085 50  0001 C CNN
+F 3 "~" H 7085 6085 50  0001 C CNN
+	1    7085 6085
+	1    0    0    -1  
+$EndComp
+$Comp
+L mx:MX-1U MX114
+U 1 1 5E002AB4
+P 6960 5910
+F 0 "MX114" H 7046 6127 60  0000 C CNN
+F 1 "MX-1U" H 7046 6052 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 6935 5885 60  0001 C CNN
+F 3 "" H 6935 5885 60  0001 C CNN
+	1    6960 5910
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4180 6235 4660 6235
+$Comp
+L Device:R R108
+U 1 1 5E002AC3
+P 4180 6085
+F 0 "R108" H 4250 6131 50  0000 L CNN
+F 1 "R" H 4250 6040 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4110 6085 50  0001 C CNN
+F 3 "~" H 4180 6085 50  0001 C CNN
+	1    4180 6085
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8070 6235 8570 6235
+$Comp
+L Device:R R113
+U 1 1 5E002AD2
+P 6600 6085
+F 0 "R113" H 6670 6131 50  0000 L CNN
+F 1 "R" H 6670 6040 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 6530 6085 50  0001 C CNN
+F 3 "~" H 6600 6085 50  0001 C CNN
+	1    6600 6085
+	1    0    0    -1  
+$EndComp
+Connection ~ 4080 6035
+$Comp
+L Diode:1N4148 D105
+U 1 1 5E002AE1
+P 2480 6235
+F 0 "D105" V 2526 6156 50  0000 R CNN
+F 1 "1N4148" V 2435 6156 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2480 6060 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 2480 6235 50  0001 C CNN
+	1    2480 6235
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D110
+U 1 1 5E002AEF
+P 4880 6235
+F 0 "D110" V 4926 6156 50  0000 R CNN
+F 1 "1N4148" V 4835 6156 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4880 6060 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4880 6235 50  0001 C CNN
+	1    4880 6235
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2640 6035 2160 6035
+Connection ~ 3920 6385
+Connection ~ 6825 6385
+Wire Wire Line
+	5140 6235 5625 6235
+Connection ~ 7085 6235
+Wire Wire Line
+	7970 6035 7475 6035
+Wire Wire Line
+	3070 6085 2960 6085
+Wire Wire Line
+	1300 6235 1780 6235
+$Comp
+L Diode:1N4148 D113
+U 1 1 5E002B06
+P 6340 6235
+F 0 "D113" V 6386 6156 50  0000 R CNN
+F 1 "1N4148" V 6295 6156 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6340 6060 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6340 6235 50  0001 C CNN
+	1    6340 6235
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5365 6385 5850 6385
+Wire Wire Line
+	5960 6085 5850 6085
+$Comp
+L Diode:1N4148 D116
+U 1 1 5E002B16
+P 7810 6235
+F 0 "D116" V 7856 6156 50  0000 R CNN
+F 1 "1N4148" V 7765 6156 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7810 6060 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7810 6235 50  0001 C CNN
+	1    7810 6235
+	0    -1   -1   0   
+$EndComp
+$Comp
+L mx:MX-1U MX111
+U 1 1 5E002B26
+P 5500 5910
+F 0 "MX111" H 5586 6127 60  0000 C CNN
+F 1 "MX-1U" H 5586 6052 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 5475 5885 60  0001 C CNN
+F 3 "" H 5475 5885 60  0001 C CNN
+	1    5500 5910
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D109
+U 1 1 5E002B34
+P 4400 6235
+F 0 "D109" V 4446 6156 50  0000 R CNN
+F 1 "1N4148" V 4355 6156 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4400 6060 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4400 6235 50  0001 C CNN
+	1    4400 6235
+	0    -1   -1   0   
+$EndComp
+$Comp
+L mx:MX-1U MX104
+U 1 1 5E002B44
+P 2135 5910
+F 0 "MX104" H 2221 6127 60  0000 C CNN
+F 1 "MX-1U" H 2221 6052 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 2110 5885 60  0001 C CNN
+F 3 "" H 2110 5885 60  0001 C CNN
+	1    2135 5910
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D102
+U 1 1 5E002B52
+P 1040 6235
+F 0 "D102" V 1086 6156 50  0000 R CNN
+F 1 "1N4148" V 995 6156 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 1040 6060 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 1040 6235 50  0001 C CNN
+	1    1040 6235
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6450 6085 6340 6085
+Wire Wire Line
+	8570 6235 9070 6235
+Connection ~ 2160 6035
+Wire Wire Line
+	8420 6085 8310 6085
+$Comp
+L Diode:1N4148 D117
+U 1 1 5E002B64
+P 8310 6235
+F 0 "D117" V 8356 6156 50  0000 R CNN
+F 1 "1N4148" V 8265 6156 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 8310 6060 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8310 6235 50  0001 C CNN
+	1    8310 6235
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8470 6035 7970 6035
+Wire Wire Line
+	5625 6235 6110 6235
+Connection ~ 2960 6385
+Wire Wire Line
+	7920 6085 7810 6085
+Wire Wire Line
+	8920 6085 8810 6085
+Wire Wire Line
+	7425 6085 7315 6085
+$Comp
+L mx:MX-1U MX115
+U 1 1 5E002B7A
+P 7450 5910
+F 0 "MX115" H 7536 6127 60  0000 C CNN
+F 1 "MX-1U" H 7536 6052 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 7425 5885 60  0001 C CNN
+F 3 "" H 7425 5885 60  0001 C CNN
+	1    7450 5910
+	1    0    0    -1  
+$EndComp
+$Comp
+L mx:MX-1U MX117
+U 1 1 5E002B8A
+P 8445 5910
+F 0 "MX117" H 8531 6127 60  0000 C CNN
+F 1 "MX-1U" H 8531 6052 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 8420 5885 60  0001 C CNN
+F 3 "" H 8420 5885 60  0001 C CNN
+	1    8445 5910
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4880 6385 5365 6385
+Wire Wire Line
+	5475 6085 5365 6085
+Connection ~ 2000 6385
+$Comp
+L Device:R R103
+U 1 1 5E002B9C
+P 1780 6085
+F 0 "R103" H 1850 6131 50  0000 L CNN
+F 1 "R" H 1850 6040 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 1710 6085 50  0001 C CNN
+F 3 "~" H 1780 6085 50  0001 C CNN
+	1    1780 6085
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4510 6085 4400 6085
+Wire Wire Line
+	7475 6035 6985 6035
+Connection ~ 5850 6385
+$Comp
+L Diode:1N4148 D111
+U 1 1 5E002BAD
+P 5365 6235
+F 0 "D111" V 5411 6156 50  0000 R CNN
+F 1 "1N4148" V 5320 6156 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5365 6060 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5365 6235 50  0001 C CNN
+	1    5365 6235
+	0    -1   -1   0   
+$EndComp
+$Comp
+L mx:MX-1U MX110
+U 1 1 5E002BBD
+P 5015 5910
+F 0 "MX110" H 5101 6127 60  0000 C CNN
+F 1 "MX-1U" H 5101 6052 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 4990 5885 60  0001 C CNN
+F 3 "" H 4990 5885 60  0001 C CNN
+	1    5015 5910
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R110
+U 1 1 5E002BCB
+P 5140 6085
+F 0 "R110" H 5210 6131 50  0000 L CNN
+F 1 "R" H 5210 6040 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5070 6085 50  0001 C CNN
+F 3 "~" H 5140 6085 50  0001 C CNN
+	1    5140 6085
+	1    0    0    -1  
+$EndComp
+Connection ~ 6010 6035
+Wire Wire Line
+	3700 6235 4180 6235
+Connection ~ 3220 6235
+$Comp
+L mx:MX-1U MX108
+U 1 1 5E002BDE
+P 4055 5910
+F 0 "MX108" H 4141 6127 60  0000 C CNN
+F 1 "MX-1U" H 4141 6052 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 4030 5885 60  0001 C CNN
+F 3 "" H 4030 5885 60  0001 C CNN
+	1    4055 5910
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6010 6035 5525 6035
+Wire Wire Line
+	5525 6035 5040 6035
+Wire Wire Line
+	2160 6035 1680 6035
+$Comp
+L mx:MX-1U MX113
+U 1 1 5E002BF1
+P 6475 5910
+F 0 "MX113" H 6561 6127 60  0000 C CNN
+F 1 "MX-1U" H 6561 6052 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 6450 5885 60  0001 C CNN
+F 3 "" H 6450 5885 60  0001 C CNN
+	1    6475 5910
+	1    0    0    -1  
+$EndComp
+$Comp
+L mx:MX-1U MX109
+U 1 1 5E002C01
+P 4535 5910
+F 0 "MX109" H 4621 6127 60  0000 C CNN
+F 1 "MX-1U" H 4621 6052 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 4510 5885 60  0001 C CNN
+F 3 "" H 4510 5885 60  0001 C CNN
+	1    4535 5910
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1680 6035 1200 6035
+$Comp
+L Diode:1N4148 D112
+U 1 1 5E002C10
+P 5850 6235
+F 0 "D112" V 5896 6156 50  0000 R CNN
+F 1 "1N4148" V 5805 6156 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5850 6060 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5850 6235 50  0001 C CNN
+	1    5850 6235
+	0    -1   -1   0   
+$EndComp
+$Comp
+L mx:MX-1U MX103
+U 1 1 5E002C20
+P 1655 5910
+F 0 "MX103" H 1741 6127 60  0000 C CNN
+F 1 "MX-1U" H 1741 6052 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 1630 5885 60  0001 C CNN
+F 3 "" H 1630 5885 60  0001 C CNN
+	1    1655 5910
+	1    0    0    -1  
+$EndComp
+$Comp
+L mx:MX-1U MX112
+U 1 1 5E002C30
+P 5985 5910
+F 0 "MX112" H 6071 6127 60  0000 C CNN
+F 1 "MX-1U" H 6071 6052 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 5960 5885 60  0001 C CNN
+F 3 "" H 5960 5885 60  0001 C CNN
+	1    5985 5910
+	1    0    0    -1  
+$EndComp
+$Comp
+L mx:MX-1U MX102
+U 1 1 5E002C40
+P 1175 5910
+F 0 "MX102" H 1261 6127 60  0000 C CNN
+F 1 "MX-1U" H 1261 6052 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 1150 5885 60  0001 C CNN
+F 3 "" H 1150 5885 60  0001 C CNN
+	1    1175 5910
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8970 6035 8470 6035
+Connection ~ 1680 6035
+$Comp
+L Device:R R105
+U 1 1 5E002C50
+P 2740 6085
+F 0 "R105" H 2810 6131 50  0000 L CNN
+F 1 "R" H 2810 6040 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 2670 6085 50  0001 C CNN
+F 3 "~" H 2740 6085 50  0001 C CNN
+	1    2740 6085
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6825 6385 7315 6385
+Wire Wire Line
+	7810 6385 8310 6385
+Connection ~ 7970 6035
+Wire Wire Line
+	6340 6385 6825 6385
+$Comp
+L Diode:1N4148 D103
+U 1 1 5E002C62
+P 1520 6235
+F 0 "D103" V 1566 6156 50  0000 R CNN
+F 1 "1N4148" V 1475 6156 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 1520 6060 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 1520 6235 50  0001 C CNN
+	1    1520 6235
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4660 6235 5140 6235
+$Comp
+L Diode:1N4148 D108
+U 1 1 5E002C71
+P 3920 6235
+F 0 "D108" V 3966 6156 50  0000 R CNN
+F 1 "1N4148" V 3875 6156 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3920 6060 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 3920 6235 50  0001 C CNN
+	1    3920 6235
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3600 6035 3120 6035
+Wire Wire Line
+	4400 6385 4880 6385
+Wire Wire Line
+	7315 6385 7810 6385
+Connection ~ 4660 6235
+Wire Wire Line
+	2960 6385 3440 6385
+Wire Wire Line
+	3220 6235 3700 6235
+$Comp
+L mx:MX-1U MX106
+U 1 1 5E002C87
+P 3095 5910
+F 0 "MX106" H 3181 6127 60  0000 C CNN
+F 1 "MX-1U" H 3181 6052 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 3070 5885 60  0001 C CNN
+F 3 "" H 3070 5885 60  0001 C CNN
+	1    3095 5910
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R116
+U 1 1 5E002C95
+P 8070 6085
+F 0 "R116" H 8140 6131 50  0000 L CNN
+F 1 "R" H 8140 6040 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 8000 6085 50  0001 C CNN
+F 3 "~" H 8070 6085 50  0001 C CNN
+	1    8070 6085
+	1    0    0    -1  
+$EndComp
+Connection ~ 4880 6385
+Wire Wire Line
+	1780 6235 2260 6235
+Connection ~ 7315 6385
+Connection ~ 2740 6235
+Connection ~ 3440 6385
+Connection ~ 8470 6035
+Connection ~ 6985 6035
+Connection ~ 2480 6385
+Wire Wire Line
+	5040 6035 4560 6035
+Connection ~ 8070 6235
+Wire Wire Line
+	7575 6235 8070 6235
+$Comp
+L Device:R R111
+U 1 1 5E002CAE
+P 5625 6085
+F 0 "R111" H 5695 6131 50  0000 L CNN
+F 1 "R" H 5695 6040 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5555 6085 50  0001 C CNN
+F 3 "~" H 5625 6085 50  0001 C CNN
+	1    5625 6085
+	1    0    0    -1  
+$EndComp
+Connection ~ 5625 6235
+$Comp
+L Device:R R112
+U 1 1 5E002CBD
+P 6110 6085
+F 0 "R112" H 6180 6131 50  0000 L CNN
+F 1 "R" H 6180 6040 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 6040 6085 50  0001 C CNN
+F 3 "~" H 6110 6085 50  0001 C CNN
+	1    6110 6085
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4030 6085 3920 6085
+Connection ~ 6500 6035
+Connection ~ 1520 6385
+Connection ~ 3120 6035
+Wire Wire Line
+	1520 6385 2000 6385
+$Comp
+L Diode:1N4148 D114
+U 1 1 5E002CD0
+P 6825 6235
+F 0 "D114" V 6871 6156 50  0000 R CNN
+F 1 "1N4148" V 6780 6156 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6825 6060 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6825 6235 50  0001 C CNN
+	1    6825 6235
+	0    -1   -1   0   
+$EndComp
+Connection ~ 7475 6035
+$Comp
+L mx:MX-1U MX116
+U 1 1 5E002CE1
+P 7945 5910
+F 0 "MX116" H 8031 6127 60  0000 C CNN
+F 1 "MX-1U" H 8031 6052 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 7920 5885 60  0001 C CNN
+F 3 "" H 7920 5885 60  0001 C CNN
+	1    7945 5910
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R102
+U 1 1 5E002CEF
+P 1300 6085
+F 0 "R102" H 1370 6131 50  0000 L CNN
+F 1 "R" H 1370 6040 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 1230 6085 50  0001 C CNN
+F 3 "~" H 1300 6085 50  0001 C CNN
+	1    1300 6085
+	1    0    0    -1  
+$EndComp
+Connection ~ 8570 6235
+Wire Wire Line
+	4990 6085 4880 6085
+$Comp
+L Diode:1N4148 D115
+U 1 1 5E002CFF
+P 7315 6235
+F 0 "D115" V 7361 6156 50  0000 R CNN
+F 1 "1N4148" V 7270 6156 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7315 6060 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7315 6235 50  0001 C CNN
+	1    7315 6235
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R107
+U 1 1 5E002D0D
+P 3700 6085
+F 0 "R107" H 3770 6131 50  0000 L CNN
+F 1 "R" H 3770 6040 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3630 6085 50  0001 C CNN
+F 3 "~" H 3700 6085 50  0001 C CNN
+	1    3700 6085
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2110 6085 2000 6085
+Wire Wire Line
+	6600 6235 7085 6235
+Wire Wire Line
+	6110 6235 6600 6235
+$Comp
+L Diode:1N4148 D104
+U 1 1 5E002D1E
+P 2000 6235
+F 0 "D104" V 2046 6156 50  0000 R CNN
+F 1 "1N4148" V 1955 6156 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2000 6060 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 2000 6235 50  0001 C CNN
+	1    2000 6235
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1150 6085 1040 6085
+Wire Wire Line
+	2260 6235 2740 6235
+Wire Wire Line
+	2590 6085 2480 6085
+$Comp
+L Diode:1N4148 D118
+U 1 1 5E002D2F
+P 8810 6235
+F 0 "D118" V 8856 6156 50  0000 R CNN
+F 1 "1N4148" V 8765 6156 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 8810 6060 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8810 6235 50  0001 C CNN
+	1    8810 6235
+	0    -1   -1   0   
+$EndComp
+Connection ~ 3700 6235
+Connection ~ 6600 6235
+Wire Wire Line
+	4560 6035 4080 6035
+$Comp
+L Device:R R109
+U 1 1 5E002D40
+P 4660 6085
+F 0 "R109" H 4730 6131 50  0000 L CNN
+F 1 "R" H 4730 6040 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4590 6085 50  0001 C CNN
+F 3 "~" H 4660 6085 50  0001 C CNN
+	1    4660 6085
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3920 6385 4400 6385
+Connection ~ 5140 6235
+Wire Wire Line
+	1630 6085 1520 6085
+Wire Wire Line
+	4080 6035 3600 6035
+$Comp
+L Device:R R115
+U 1 1 5E002D52
+P 7575 6085
+F 0 "R115" H 7645 6131 50  0000 L CNN
+F 1 "R" H 7645 6040 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 7505 6085 50  0001 C CNN
+F 3 "~" H 7575 6085 50  0001 C CNN
+	1    7575 6085
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R118
+U 1 1 5E002D60
+P 9070 6085
+F 0 "R118" H 9140 6131 50  0000 L CNN
+F 1 "R" H 9140 6040 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 9000 6085 50  0001 C CNN
+F 3 "~" H 9070 6085 50  0001 C CNN
+	1    9070 6085
+	1    0    0    -1  
+$EndComp
+Connection ~ 1780 6235
+$Comp
+L mx:MX-1U MX118
+U 1 1 5E002D71
+P 8945 5910
+F 0 "MX118" H 9031 6127 60  0000 C CNN
+F 1 "MX-1U" H 9031 6052 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 8920 5885 60  0001 C CNN
+F 3 "" H 8920 5885 60  0001 C CNN
+	1    8945 5910
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1040 6385 1520 6385
+Connection ~ 3600 6035
+Connection ~ 6340 6385
+$Comp
+L Diode:1N4148 D106
+U 1 1 5E002D82
+P 2960 6235
+F 0 "D106" V 3006 6156 50  0000 R CNN
+F 1 "1N4148" V 2915 6156 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2960 6060 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 2960 6235 50  0001 C CNN
+	1    2960 6235
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6500 6035 6010 6035
+Wire Wire Line
+	1350 875  1350 1705
+Connection ~ 1350 1705
+Wire Wire Line
+	1350 1705 1350 2550
+Connection ~ 1350 2550
+Wire Wire Line
+	1350 2550 1350 3380
+Connection ~ 1350 3380
+Wire Wire Line
+	1350 3380 1350 4210
+Connection ~ 1350 4210
+Wire Wire Line
+	1350 4210 1350 5040
+Connection ~ 1350 5040
+Wire Wire Line
+	1350 5040 1350 5885
+Wire Wire Line
+	1830 5885 1830 5040
+Connection ~ 1830 1705
+Wire Wire Line
+	1830 1705 1830 875 
+Connection ~ 1830 2550
+Wire Wire Line
+	1830 2550 1830 1705
+Connection ~ 1830 3380
+Wire Wire Line
+	1830 3380 1830 2550
+Connection ~ 1830 4210
+Wire Wire Line
+	1830 4210 1830 3380
+Connection ~ 1830 5040
+Wire Wire Line
+	1830 5040 1830 4210
+Wire Wire Line
+	2310 875  2310 1705
+Connection ~ 2310 1705
+Wire Wire Line
+	2310 1705 2310 2550
+Connection ~ 2310 2550
+Wire Wire Line
+	2310 2550 2310 3380
+Connection ~ 2310 3380
+Wire Wire Line
+	2310 3380 2310 4210
+Connection ~ 2310 4210
+Wire Wire Line
+	2310 4210 2310 5040
+Connection ~ 2310 5040
+Wire Wire Line
+	2310 5040 2310 5885
+Wire Wire Line
+	2790 5885 2790 5040
+Connection ~ 2790 1705
+Wire Wire Line
+	2790 1705 2790 875 
+Connection ~ 2790 2550
+Wire Wire Line
+	2790 2550 2790 1705
+Connection ~ 2790 3380
+Wire Wire Line
+	2790 3380 2790 2550
+Connection ~ 2790 4210
+Wire Wire Line
+	2790 4210 2790 3380
+Connection ~ 2790 5040
+Wire Wire Line
+	2790 5040 2790 4210
+Wire Wire Line
+	3270 875  3270 1705
+Connection ~ 3270 1705
+Wire Wire Line
+	3270 1705 3270 2550
+Connection ~ 3270 2550
+Wire Wire Line
+	3270 2550 3270 3380
+Connection ~ 3270 3380
+Wire Wire Line
+	3270 3380 3270 4210
+Connection ~ 3270 4210
+Wire Wire Line
+	3270 4210 3270 5040
+Connection ~ 3270 5040
+Wire Wire Line
+	3270 5040 3270 5885
+Wire Wire Line
+	3750 5885 3750 5040
+Connection ~ 3750 1705
+Wire Wire Line
+	3750 1705 3750 875 
+Connection ~ 3750 2550
+Wire Wire Line
+	3750 2550 3750 1705
+Connection ~ 3750 3380
+Wire Wire Line
+	3750 3380 3750 2550
+Connection ~ 3750 4210
+Wire Wire Line
+	3750 4210 3750 3380
+Connection ~ 3750 5040
+Wire Wire Line
+	3750 5040 3750 4210
+Wire Wire Line
+	4230 875  4230 1705
+Connection ~ 4230 1705
+Wire Wire Line
+	4230 1705 4230 2550
+Connection ~ 4230 2550
+Wire Wire Line
+	4230 2550 4230 3380
+Connection ~ 4230 3380
+Wire Wire Line
+	4230 3380 4230 4210
+Connection ~ 4230 4210
+Wire Wire Line
+	4230 4210 4230 5040
+Connection ~ 4230 5040
+Wire Wire Line
+	4230 5040 4230 5885
+Wire Wire Line
+	4710 5885 4710 5040
+Connection ~ 4710 1705
+Wire Wire Line
+	4710 1705 4710 875 
+Connection ~ 4710 2550
+Wire Wire Line
+	4710 2550 4710 1705
+Connection ~ 4710 3380
+Wire Wire Line
+	4710 3380 4710 2550
+Connection ~ 4710 4210
+Wire Wire Line
+	4710 4210 4710 3380
+Connection ~ 4710 5040
+Wire Wire Line
+	4710 5040 4710 4210
+Wire Wire Line
+	5190 875  5190 1705
+Connection ~ 5190 1705
+Wire Wire Line
+	5190 1705 5190 2550
+Connection ~ 5190 2550
+Wire Wire Line
+	5190 2550 5190 3380
+Connection ~ 5190 3380
+Wire Wire Line
+	5190 3380 5190 4210
+Connection ~ 5190 4210
+Wire Wire Line
+	5190 4210 5190 5040
+Connection ~ 5190 5040
+Wire Wire Line
+	5190 5040 5190 5885
+Wire Wire Line
+	5675 5885 5675 5040
+Connection ~ 5675 1705
+Wire Wire Line
+	5675 1705 5675 875 
+Connection ~ 5675 2550
+Wire Wire Line
+	5675 2550 5675 1705
+Connection ~ 5675 3380
+Wire Wire Line
+	5675 3380 5675 2550
+Connection ~ 5675 4210
+Wire Wire Line
+	5675 4210 5675 3380
+Connection ~ 5675 5040
+Wire Wire Line
+	5675 5040 5675 4210
+Wire Wire Line
+	6160 875  6160 1705
+Connection ~ 6160 1705
+Wire Wire Line
+	6160 1705 6160 2550
+Connection ~ 6160 2550
+Wire Wire Line
+	6160 2550 6160 3380
+Connection ~ 6160 3380
+Wire Wire Line
+	6160 3380 6160 4210
+Connection ~ 6160 4210
+Wire Wire Line
+	6160 4210 6160 5040
+Connection ~ 6160 5040
+Wire Wire Line
+	6160 5040 6160 5885
+Wire Wire Line
+	6650 5885 6650 5040
+Connection ~ 6650 1705
+Wire Wire Line
+	6650 1705 6650 875 
+Connection ~ 6650 2550
+Wire Wire Line
+	6650 2550 6650 1705
+Connection ~ 6650 3380
+Wire Wire Line
+	6650 3380 6650 2550
+Connection ~ 6650 4210
+Wire Wire Line
+	6650 4210 6650 3380
+Connection ~ 6650 5040
+Wire Wire Line
+	6650 5040 6650 4210
+Wire Wire Line
+	7135 875  7135 1705
+Connection ~ 7135 1705
+Wire Wire Line
+	7135 1705 7135 2550
+Connection ~ 7135 2550
+Wire Wire Line
+	7135 2550 7135 3380
+Connection ~ 7135 3380
+Wire Wire Line
+	7135 3380 7135 4210
+Connection ~ 7135 4210
+Wire Wire Line
+	7135 4210 7135 5040
+Connection ~ 7135 5040
+Wire Wire Line
+	7135 5040 7135 5885
+Wire Wire Line
+	7625 5885 7625 5040
+Connection ~ 7625 1705
+Wire Wire Line
+	7625 1705 7625 875 
+Connection ~ 7625 2550
+Wire Wire Line
+	7625 2550 7625 1705
+Connection ~ 7625 3380
+Wire Wire Line
+	7625 3380 7625 2550
+Connection ~ 7625 4210
+Wire Wire Line
+	7625 4210 7625 3380
+Connection ~ 7625 5040
+Wire Wire Line
+	7625 5040 7625 4210
+Wire Wire Line
+	8120 875  8120 1705
+Connection ~ 8120 1705
+Wire Wire Line
+	8120 1705 8120 2550
+Connection ~ 8120 2550
+Wire Wire Line
+	8120 2550 8120 3380
+Connection ~ 8120 3380
+Wire Wire Line
+	8120 3380 8120 4210
+Connection ~ 8120 4210
+Wire Wire Line
+	8120 4210 8120 5040
+Connection ~ 8120 5040
+Wire Wire Line
+	8120 5040 8120 5885
+Wire Wire Line
+	8620 5885 8620 5040
+Connection ~ 8620 1705
+Connection ~ 8620 2550
+Wire Wire Line
+	8620 2550 8620 1705
+Connection ~ 8620 3380
+Wire Wire Line
+	8620 3380 8620 2550
+Connection ~ 8620 4210
+Wire Wire Line
+	8620 4210 8620 3380
+Connection ~ 8620 5040
+Wire Wire Line
+	8620 5040 8620 4210
+Connection ~ 9120 2550
+Wire Wire Line
+	9120 2550 9120 3380
+Connection ~ 9120 3380
+Wire Wire Line
+	9120 3380 9120 4210
+Connection ~ 9120 4210
+Wire Wire Line
+	9120 4210 9120 5040
+Connection ~ 9120 5040
+Wire Wire Line
+	9120 5040 9120 5885
+Wire Wire Line
+	1350 875  1350 615 
+Wire Wire Line
+	1830 615  1830 875 
+Connection ~ 1350 875 
+Connection ~ 1830 875 
+Wire Wire Line
+	2310 875  2310 615 
+Wire Wire Line
+	2790 615  2790 875 
+Connection ~ 2310 875 
+Connection ~ 2790 875 
+Wire Wire Line
+	3270 875  3270 615 
+Wire Wire Line
+	3750 615  3750 875 
+Connection ~ 3270 875 
+Connection ~ 3750 875 
+Wire Wire Line
+	4230 875  4230 600 
+Wire Wire Line
+	4710 600  4710 875 
+Connection ~ 4230 875 
+Connection ~ 4710 875 
+Wire Wire Line
+	5190 875  5190 600 
+Wire Wire Line
+	5675 600  5675 875 
+Connection ~ 5190 875 
+Connection ~ 5675 875 
+Wire Wire Line
+	6160 875  6160 580 
+Wire Wire Line
+	6650 580  6650 875 
+Connection ~ 6160 875 
+Connection ~ 6650 875 
+Wire Wire Line
+	7135 875  7135 585 
+Wire Wire Line
+	7625 585  7625 875 
+Connection ~ 7135 875 
+Connection ~ 7625 875 
+Wire Wire Line
+	8120 875  8120 585 
+Connection ~ 8120 875 
+Text GLabel 1350 615  0    50   Input ~ 0
+COL0
+Text GLabel 1830 615  0    50   Input ~ 0
+COL1
+Text GLabel 2310 615  0    50   Input ~ 0
+COL2
+Text GLabel 2790 615  0    50   Input ~ 0
+COL3
+Text GLabel 3270 615  0    50   Input ~ 0
+COL4
+Text GLabel 3750 615  0    50   Input ~ 0
+COL5
+Text GLabel 4230 600  0    50   Input ~ 0
+COL6
+Text GLabel 4710 600  0    50   Input ~ 0
+COL7
+Text GLabel 5190 600  0    50   Input ~ 0
+COL8
+Text GLabel 5675 600  0    50   Input ~ 0
+COL9
+Text GLabel 6160 580  0    50   Input ~ 0
+COL10
+Text GLabel 6650 580  0    50   Input ~ 0
+COL11
+Text GLabel 7135 585  0    50   Input ~ 0
+COL12
+Text GLabel 7625 585  0    50   Input ~ 0
+COL13
+Text GLabel 8120 585  0    50   Input ~ 0
+COL14
+Text GLabel 8620 585  0    50   Input ~ 0
+COL15
+Text GLabel 9120 585  0    50   Input ~ 0
+COL16
+Text GLabel 1040 1375 0    50   Input ~ 0
+ROW0
+Text GLabel 1040 2205 0    50   Input ~ 0
+ROW1
+Text GLabel 1040 3050 0    50   Input ~ 0
+ROW2
+Text GLabel 1040 3880 0    50   Input ~ 0
+ROW3
+Text GLabel 1040 4710 0    50   Input ~ 0
+ROW4
+Text GLabel 1040 5540 0    50   Input ~ 0
+ROW5
+Text GLabel 1040 6385 0    50   Input ~ 0
+ROW6
+Wire Wire Line
+	1300 1225 700  1225
+Wire Wire Line
+	700  6235 1295 6235
+Connection ~ 1300 1225
+Connection ~ 1295 6235
+Wire Wire Line
+	1300 5390 700  5390
+Connection ~ 1300 5390
+Connection ~ 700  5390
+Wire Wire Line
+	700  5390 700  6235
+Wire Wire Line
+	1300 4560 700  4560
+Wire Wire Line
+	700  1225 700  2055
+Connection ~ 1300 4560
+Connection ~ 700  4560
+Wire Wire Line
+	1300 3730 700  3730
+Connection ~ 1300 3730
+Connection ~ 700  3730
+Wire Wire Line
+	700  3730 700  4560
+Wire Wire Line
+	1300 2900 700  2900
+Connection ~ 1300 2900
+Connection ~ 700  2900
+Wire Wire Line
+	700  2900 700  3730
+Wire Wire Line
+	1300 2055 700  2055
+Connection ~ 1300 2055
+Connection ~ 700  2055
+Wire Wire Line
+	700  2055 700  2900
+Wire Wire Line
+	1200 1025 610  1025
+Wire Wire Line
+	610  1025 610  1855
+Wire Wire Line
+	610  6035 1200 6035
+Connection ~ 1200 1025
+Connection ~ 1200 6035
+Wire Wire Line
+	1200 4360 610  4360
+Connection ~ 1200 4360
+Connection ~ 610  4360
+Wire Wire Line
+	610  4360 610  5190
+Wire Wire Line
+	700  4560 700  5390
+Wire Wire Line
+	1200 5190 610  5190
+Connection ~ 1200 5190
+Connection ~ 610  5190
+Wire Wire Line
+	610  5190 610  6035
+Wire Wire Line
+	1200 3530 610  3530
+Connection ~ 1200 3530
+Connection ~ 610  3530
+Wire Wire Line
+	610  3530 610  4360
+Wire Wire Line
+	1200 2700 610  2700
+Connection ~ 1200 2700
+Connection ~ 610  2700
+Wire Wire Line
+	610  2700 610  3530
+Wire Wire Line
+	1200 1855 610  1855
+Connection ~ 1200 1855
+Connection ~ 610  1855
+Wire Wire Line
+	610  1855 610  2700
+Text GLabel 610  1025 0    50   Input ~ 0
+GND
+$Comp
+L Switch:SW_SPST SW1
+U 1 1 5D8385C4
+P 500 6695
+F 0 "SW1" H 500 6930 50  0000 C CNN
+F 1 "SW_SPST" H 500 6839 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 500 6695 50  0001 C CNN
+F 3 "~" H 500 6695 50  0001 C CNN
+	1    500  6695
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	300  6695 300  6930
+Wire Wire Line
+	300  6930 685  6930
+Text GLabel 685  6930 2    50   Input ~ 0
+VCC
+Text GLabel 9705 3015 0    50   Input ~ 0
+ROW0
+Text GLabel 9705 2315 0    50   Input ~ 0
+ROW1
+Text GLabel 9705 2415 0    50   Input ~ 0
+ROW2
+Text GLabel 9705 2515 0    50   Input ~ 0
+ROW3
+Text GLabel 9705 2615 0    50   Input ~ 0
+ROW4
+Text GLabel 9705 2715 0    50   Input ~ 0
+ROW5
+Text GLabel 9705 2865 0    50   Input ~ 0
+ROW6
+Text GLabel 9705 4815 0    50   Input ~ 0
+COL0
+Text GLabel 9705 4615 0    50   Input ~ 0
+COL2
+Text GLabel 9705 4515 0    50   Input ~ 0
+COL3
+Text GLabel 9705 4115 0    50   Input ~ 0
+COL4
+Text GLabel 9705 2215 0    50   Input ~ 0
+COL5
+Text GLabel 9705 3715 0    50   Input ~ 0
+COL6
+Text GLabel 9705 3615 0    50   Input ~ 0
+COL7
+Text GLabel 9705 3515 0    50   Input ~ 0
+COL8
+Text GLabel 9705 4715 0    50   Input ~ 0
+COL1
+Text GLabel 9705 3415 0    50   Input ~ 0
+COL9
+Text GLabel 9705 3965 0    50   Input ~ 0
+COL10
+Text GLabel 9705 3865 0    50   Input ~ 0
+COL11
+Text GLabel 9705 3215 0    50   Input ~ 0
+COL12
+Text GLabel 9705 3315 0    50   Input ~ 0
+COL13
+Text GLabel 9705 4415 0    50   Input ~ 0
+COL14
+Text GLabel 9705 4215 0    50   Input ~ 0
+COL15
+Text GLabel 9705 4315 0    50   Input ~ 0
+COL16
+NoConn ~ 9705 3115
+NoConn ~ 10905 4815
+NoConn ~ 10905 4715
+Text GLabel 10905 2565 2    50   Input ~ 0
+GND
+Text GLabel 10905 2665 2    50   Input ~ 0
+GND
+Text GLabel 10905 3015 2    50   Input ~ 0
+VCC
+Text GLabel 10905 3115 2    50   Input ~ 0
+VCC
+$Comp
+L Device:R R200
+U 1 1 5D722C58
+P 700 6545
+F 0 "R200" H 770 6591 50  0000 L CNN
+F 1 "R" H 770 6500 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 630 6545 50  0001 C CNN
+F 3 "~" H 700 6545 50  0001 C CNN
+	1    700  6545
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	700  6395 700  6235
+Connection ~ 700  6235
+Wire Wire Line
+	8620 585  8620 1075
+$Comp
+L Connector:Conn_01x02_Male XM16
+U 1 1 5D7957C0
+P 8620 875
+F 0 "XM16" V 8682 919 50  0000 L CNN
+F 1 "Conn_01x02_Male" V 8773 919 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 8620 875 50  0001 C CNN
+F 3 "~" H 8620 875 50  0001 C CNN
+	1    8620 875 
+	0    1    1    0   
+$EndComp
+Connection ~ 8620 1075
+Wire Wire Line
+	8620 1075 8620 1705
+Wire Wire Line
+	8310 1075 8520 1075
+Text GLabel 610  6035 0    50   Input ~ 0
+GND
+$Comp
+L mx:MX-1U MX5
+U 1 1 5DDE629F
+P 3095 900
+F 0 "MX5" H 3181 1117 60  0000 C CNN
+F 1 "MX-1U" H 3181 1042 20  0000 C CNN
+F 2 "bobthebuilder:MX_breakout2" H 3070 875 60  0001 C CNN
+F 3 "" H 3070 875 60  0001 C CNN
+	1    3095 900 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9072 6234 9264 6234
+Wire Wire Line
+	9264 6234 9264 5390
+Connection ~ 9072 6234
+Wire Wire Line
+	8070 1224 9264 1224
+Connection ~ 8070 1224
+Connection ~ 9264 1224
+Wire Wire Line
+	8570 2055 9264 2055
+Connection ~ 8570 2055
+Connection ~ 9264 2055
+Wire Wire Line
+	9264 2055 9264 1226
+Wire Wire Line
+	9070 2900 9263 2900
+Connection ~ 9070 2900
+Connection ~ 9263 2900
+Wire Wire Line
+	9070 3730 9264 3730
+Connection ~ 9070 3730
+Connection ~ 9264 3730
+Wire Wire Line
+	9264 3730 9264 2055
+Wire Wire Line
+	9070 4560 9264 4560
+Connection ~ 9070 4560
+Connection ~ 9264 4560
+Wire Wire Line
+	9264 4560 9264 3730
+Wire Wire Line
+	9070 5390 9264 5390
+Connection ~ 9070 5390
+Connection ~ 9264 5390
+Wire Wire Line
+	9264 5390 9264 4560
+$Comp
+L mx2:TEENSY2.0 U1
+U 1 1 5DC48845
+P 10305 3515
+F 0 "U1" H 10305 1976 60  0000 C CNN
+F 1 "TEENSY2.0" H 10305 2083 60  0000 C CNN
+F 2 "teensy:Teensy2.0" H 10305 3515 60  0001 C CNN
+F 3 "" H 10305 3515 60  0000 C CNN
+	1    10305 3515
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9120 585  9120 2550
+$EndSCHEMATC
