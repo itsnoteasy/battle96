@@ -1,0 +1,75 @@
+ansi
+["Esc","F11","F12","F13","F14","F15","F16","F17","F18","F19","F20","F21","F22","Insert","Home","PgUp",{a:7},"","",""],
+[{a:4},"Menu","F1","F2","F3","F4","F5","F6","F7","F8","F9","F10","F11","F12","Delete","End","PgDn","PrtSc","Scroll Lock","Pause\nBreak"],
+["~\n`","!\n1","@\n2","#\n3","$\n4","%\n5","^\n6","&\n7","*\n8","(\n9",")\n0","_\n-","+\n=",{w:2},"Backspace","Num Lock","/","*","-"],
+[{w:1.5},"Tab","Q","W","E","R","T","Y","U","I","O","P","{\n[","}\n]",{w:1.5},"|\n\\","7\nHome","8\n↑","9\nPgUp",{h:2},"+"],
+[{w:1.75},"Caps Lock","A","S","D","F","G","H","J","K","L",":\n;","\"\n'",{w:2.25},"Enter","4\n←","5","6\n→"],
+[{w:2.25},"Shift","Z","X","C","V","B","N","M","<\n,",">\n.","?\n/",{w:1.75},"Shift","↑","1\nEnd","2\n↓","3\nPgDn",{h:2},"Enter"],
+[{w:1.25},"Ctrl",{w:1.25},"Win",{w:1.25},"Alt",{a:7,w:6.25},"",{a:4,w:1.25},"Alt",{x:0.5,w:1.25},"Ctrl","←","↓","→","0\nIns",".\nDel"]
+
+
+iso
+["Esc","F11","F12","F13","F14","F15","F16","F17","F18","F19","F20","F21","F22","Insert","Home","PgUp",{a:7},"","",""],
+[{a:4},"Menu","F1","F2","F3","F4","F5","F6","F7","F8","F9","F10","F11","F12","Delete","End","PgDn","PrtSc","Scroll Lock","Pause\nBreak"],
+["¬\n`","!\n1","\"\n2","£\n3","$\n4","%\n5","^\n6","&\n7","*\n8","(\n9",")\n0","_\n-","+\n=",{w:2},"Backspace","Num Lock","/","*","-"],
+[{w:1.5},"Tab","Q","W","E","R","T","Y","U","I","O","P","{\n[","}\n]",{x:0.25,w:1.25,h:2,w2:1.5,h2:1,x2:-0.25},"Enter","7\nHome","8\n↑","9\nPgUp",{h:2},"+"],
+[{w:1.75},"Caps Lock","A","S","D","F","G","H","J","K","L",":\n;","@\n'","~\n#",{x:1.25},"4\n←","5","6\n→"],
+[{w:1.25},"Shift","|\n\\","Z","X","C","V","B","N","M","<\n,",">\n.","?\n/",{w:1.75},"Shift","↑","1\nEnd","2\n↓","3\nPgDn",{h:2},"Enter"],
+[{w:1.25},"Ctrl",{w:1.25},"Win",{w:1.25},"Alt",{a:7,w:6.25},"",{a:4,w:1.25},"AltGr",{x:0.5,w:1.25},"Ctrl","←","↓","→","0\nIns",".\nDel"]
+
+iso/1800, non modified shift
+
+["Esc","F11","F12","F13","F14","F15","F16","F17","F18","F19","F20","F21","F22","Insert","Home","PgUp","lock","lock","illum"],
+["Menu","F1","F2","F3","F4","F5","F6","F7","F8","F9","F10","F11","F12","Delete","End","PgDn","PrtSc","Scroll Lock","Pause\nBreak"],
+["¬\n`","!\n1","\"\n2","£\n3","$\n4","%\n5","^\n6","&\n7","*\n8","(\n9",")\n0","_\n-","+\n=",{w:2},"Backspace","Num Lock","/","*","-"],
+[{w:1.5},"Tab","Q","W","E","R","T","Y","U","I","O","P","{\n[","}\n]",{x:0.25,w:1.25,h:2,w2:1.5,h2:1,x2:-0.25},"Enter","7\nHome","8\n↑","9\nPgUp",{h:2},"+"],
+[{w:1.75},"Caps Lock","A","S","D","F","G","H","J","K","L",":\n;","@\n'","~\n#",{x:1.25},"4\n←","5","6\n→"],
+[{w:1.25},"Shift","|\n\\","Z","X","C","V","B","N","M","<\n,",">\n.","?\n/",{w:1.25},"Shift",{x:0.25},"↑",{x:0.25},"1\nEnd","2\n↓","3\nPgDn",{h:2},"Enter"],
+[{w:1.25},"Ctrl",{w:1.25},"Win",{w:1.25},"Alt",{a:7,w:6.25},"",{a:4,w:1.25},"AltGr",{w:1.25},"Ctrl",{x:0.25},"←","↓","→",{x:0.25},"0\nIns",".\nDel"]
+
+ortho, for matrix layout 18x7
+
+["Esc","F11","F12","F13","F14","F15","F16","F17","F18","F19","F20","F21","F22","Insert","PgUp","lock","lock"],
+["Menu","F1","F2","F3","F4","F5","F6","F7","F8","F9","F10","F11","F12","Delete","Home","PrtSc","Scroll Lock","Pause\nBreak"],
+["¬\n`","!\n1","\"\n2","£\n3","$\n4","%\n5","^\n6","&\n7","*\n8","(\n9",")\n0","_\n-","+\n=","Backspace","End","/","*","-"],
+["Tab","Q","W","E","R","T","Y","U","I","O","P","{\n[","}\n]","Enter","PgDn","8\n↑","9\nPgUp","+"],
+["Caps Lock","A","S","D","F","G","H","J","K","L",":\n;","@\n'","~\n#","↑","Num Lock","5","6\n→","Enter"],
+["Shift","|\n\\","Z","X","C","V","B","N","M","<\n,",">\n.","?\n/","Shift","↓","7\nHome","1\nEnd","3\nPgDn",".\nDel"],
+["Ctrl","Win","Alt",{x:3,a:7},"",{x:3,a:4},"AltGr","Ctrl","←",{x:1},"4\n←","→","2\n↓","0\nIns"]
+
+ortho-matrix, condensed for 17 columns
+
+["Esc","F11","F12","F13","F15","F6","F16","F17","F19","F20","F21","F22","Insert","Home","PgUp","lock"],
+["Menu","F1","F2","F3","F14","F5","F7","F18","F9","F10","F11","F12","Delete","End","PgDn","PrtSc","lock"],
+["¬\n`","!\n1","\"\n2","£\n3","F4","%\n5","&\n7","F8","(\n9",")\n0","_\n-","+\n=","Backspace","Num Lock","/","Scroll Lock","Pause\nBreak"],
+["Tab","Q","W","E","$\n4","T","^\n6","*\n8","I","O","P","}\n]","Enter","7\nHome","8\n↑","*","-"],
+["Caps Lock","A","S","D","R","G","Y","U","K","L","{\n[","@\n'","↑","4\n←","5","9\nPgUp","+"],
+["Shift","|\n\\","Z","X","F","B","H","J","<\n,",">\n.",":\n;","~\n#","↓","1\nEnd","2\n↓","6\n→","Enter"],
+["Ctrl","Win","Alt","C","V",{a:7},"",{a:4},"N","M","AltGr","Ctrl","?\n/","Shift","←","→","0\nIns","3\nPgDn",".\nDel"]
+
+ortho-matrix, condensed for 17 columns and labelled with mx/xm numberings
+
+["Esc\n01","F11\n02","F12\n03","F13\n04","F15\n05","F6\n06","F16\n07","F17\n08","F19\n09","F20\n10","F21\n11","F22\n12","Insert\n13","Home\n14","PgUp\n15","lock\n16"],
+["Menu\n17","F1\n18","F2\n19","F3\n20","F14\n21","F5\n22","F7\n23","F18\n24","F9\n25","F10\n26","F11\n27","F12\n28","Delete\n29","End\n30","PgDn\n31","PrtSc\n32","lock\n32"],
+["34\n`","35\n1","36\n2","37\n3","F4\n38","39\n5","40\n7","F8\n41","42\n9","43\n0","_\n44","45\n=","Backspace\n46","Num Lock\n47","/\n48","Scroll Lock\n49","Pause\n50"],
+["Tab\n51","Q\n52","W\n53","E\n54","55\n4","T\n56","57\n6","58\n8","I\n59","O\n60","P\n61","}\n62","Enter\n63","7  64\nHome","8\n↑65","*\n66","-\n67"],
+["Caps Lock\n68","A\n69","S\n70","D\n71","R\n72","G\n73","Y\n74","U\n75","K\n76","L\n77","{\n78","@\n' 79","↑\n80","4\n← 81","5\n82","9  83\nPgUp","+\n84"],
+["Shift\n85","|\n\\  86","Z\n87","X\n88","F\n89","B\n90","H\n91","J\n92","<\n, 93",">\n. 94",":\n; 95","~\n# 96","↓\n97","1\nEnd 98","2\n↓99","6\n→100","Enter\n101"],
+["Ctrl\n102","Win\n103","Alt\n104","C\n105","V\n106","\n107","N\n108","M\n109","AltGr\n110","Ctrl\n111","?\n/ 112","Shift\n113","←\n114","→\n115","0\nIns 116","3\nPgDn\n\n\n\n\n117",".\nDel\n\n\n\n\n118"]
+
+iso/1800, non modified shift with 17 column 7 row ortho-matrix numberings.
+
+["Esc\n01","F11\n02","F12\n03","F13\n04","F14\n21","F15\n05","F16\n07","F17\n08","F18\n24","F19\n09","F20\n10","F21\n11","F22\n12","Insert\n13","Home\n14","PgUp\n15","lock\n16","lock\n33","illum"],
+["Menu\n17","F1\n18","F2\n19","F3\n20","F4\n38","F5\n22","F6\n06","F7\n23","F8\n41","F9\n25","F10\n26","F11\n27","F12\n28","Delete\n29","End\n30","PgDn\n31","PrtSc\n32","Scroll Lock\n49","Pause\n50"],
+["¬\n`\n34","!\n1\n\n\n\n\n35","\"\n2\n\n\n\n\n36","£\n3\n\n\n\n\n37","$\n4\n\n\n\n\n55","%\n5\n\n\n\n\n39","^\n6\n\n\n\n\n57","&\n7\n\n\n\n\n40","*\n8\n\n\n\n\n58","(\n9\n\n\n\n\n42",")\n0\n\n\n\n\n43","_\n-\n\n\n\n\n44","+\n=\n\n\n\n\n45",{w:2},"Backspace\n\n\n\n\n\n46","Num Lock\n47","/\n48","*\n66","-\n67"],
+[{w:1.5},"Tab\n51","Q\n52","W\n53","E\n54","R\n72","T\n56","Y\n74","U\n75","I\n59","O\n60","P\n61","{\n[\n78","}\n]\n62",{x:0.25,w:1.25,h:2,w2:1.5,h2:1,x2:-0.25},"Enter\n63","7\nHome\n64","8\n↑\n65","9\nPgUp\n83",{h:2},"+\n84"],
+[{w:1.75},"Caps Lock\n68","A\n69","S\n70","D\n71","F\n89","G\n73","H\n91","J\n92","K\n76","L\n77",":\n95\n;","@\n79\n'","~\n#\n96",{x:1.25},"4\n←\n81","5\n82","6\n→\n100"],
+[{w:1.25},"Shift\n85","|\n\\\n\n\n\n\n86","Z\n87","X\n88","C\n105","V\n106","B\n90","N\n108","M\n109","<\n93\n,",">\n94\n.","?\n112\n/",{w:1.25},"Shift\n113",{x:0.25},"↑\n80",{x:0.25},"1\nEnd\n98","2\n↓\n\n\n\n\n99","3\nPgDn\n117",{h:2},"Enter\n101"],
+[{w:1.25},"Ctrl\n102",{w:1.25},"Win\n103",{w:1.25},"Alt\n104",{w:6.25},"\n107",{w:1.25},"AltGr\n110",{w:1.25},"Ctrl\n111",{x:0.25},"←\n114","↓\n97","→\n115",{x:0.25},"0\nIns\n116",".\nDel\n118"]
+
+
+About your board
+
+We detected a 2 layer board of 15.44 x 6.44 inches (392.1 x 163.6mm)
+3 boards will cost $497.15
+
